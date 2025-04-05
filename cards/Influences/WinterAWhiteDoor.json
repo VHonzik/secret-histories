@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    "whitedoor",
+    ["Temporary", 2],
+    "Influence",
+    ["Winter", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "influencewinter.png",
+  "title": "Chilly Atmosphere",
+  "text": ["Decays to {dread}"],
+  "amount": 1
+}

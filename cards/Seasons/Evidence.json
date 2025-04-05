@@ -1,0 +1,12 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 11]
+  ],
+  "verbs": [
+  ],
+  "art": "evidence.png",
+  "title": "Tentative Evidence",
+  "text": ["If you gain another {evidence} refill all {Time} here.", "If you have 3 of these at any point,","the rest of your life will be spent behind bars."],
+  "amount": 6
+}

@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "ascensionpowera.png",
+  "title": "Temptation: Power",
+  "text": ["Dream({dream}): Show 4+{Forge}{Lore} to dedicate", "yourself to pursuit of power.", "Gain {ascensionpowerb} and load one {desire} on it.","This cannot be undone." ],
+  "amount": 1
+}

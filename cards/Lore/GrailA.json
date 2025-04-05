@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Grail", 2]
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "fragmentgrail.png",
+  "title": "Red Secret",
+  "text": ["Approach({talk}): If not already revealed,","reveal {cultgrail_1} and place your {society} on it"],
+  "amount": 4
+}

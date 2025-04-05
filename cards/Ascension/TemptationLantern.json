@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "ascensionenlightenmenta.png",
+  "title": "Temptation: Enlightenment",
+  "text": ["Dream({dream}): Show 4+{Lantern}{Lore} to dedicate", "yourself to pursuit of knowledge.", "Gain {ascensionenlightenmentb} and load one {desire} on it.","This cannot be undone." ],
+  "amount": 1
+}

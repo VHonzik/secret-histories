@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    ["Forge", 6],
+    "Ingredient",
+    ["Auctionable", 8]
+  ],
+  "verbs": [],
+  "art": "compensationc.png",
+  "title": "Silver Spintria",
+  "text": [],
+  "amount": 10
+}

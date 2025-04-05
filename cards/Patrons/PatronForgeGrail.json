@@ -1,0 +1,12 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Patron"
+  ],
+  "verbs": [
+  ],
+  "art": "bechet.png",
+  "title": "Mme Bechet",
+  "text": ["Mme Bechet gives {Forge} or {Grail} commissions"],
+  "amount": 1
+}

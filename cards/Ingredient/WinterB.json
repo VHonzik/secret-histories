@@ -1,0 +1,16 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "hunter",
+    "Pigment",
+    "Ingredient",
+    ["Winter", 4],
+    ["Auctionable", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "ingredientwinterb.png",
+  "title": "Greydawn Oil",
+  "text": ["(Exotic paint can produce masterpiece)"],
+  "amount": 1
+}

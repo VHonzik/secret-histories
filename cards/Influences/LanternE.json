@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Lantern", 10]
+  ],
+  "verbs": [
+  ],
+  "art": "influencelanterne.png",
+  "title": "Blaze of Radiance",
+  "text": ["Decays to Intensity of Radiance"],
+  "amount": 3
+}

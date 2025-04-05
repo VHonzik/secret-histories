@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "library",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "textbookreason.png",
+  "title": "Collection of Essays",
+  "text": ["Study({study}): Discard and gain {ReasonC}"],
+  "amount": 1
+}

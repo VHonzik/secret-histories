@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "assetpacked",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "onthewhite.png",
+  "title": "On the White",
+  "text": ["Study({study}): Discard and gain {Winter}{Lore} 2"],
+  "amount": 1
+}

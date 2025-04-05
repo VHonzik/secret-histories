@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "hunter",
+    "Ingredient"
+  ],
+  "verbs": [
+  ],
+  "art": "funds.png",
+  "title": "Funds",
+  "text": [""],
+  "amount": 10
+}

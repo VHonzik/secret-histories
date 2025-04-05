@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "HealthSkillA.png",
+  "title": "Robust Training",
+  "text": ["Upgrade({study}): From 2x {HealthB} and this make", "Robust Strength. Also gain {HealthA} and Iron", "Training. (You can discard Unskilled Labor)"],
+  "amount": 3
+}

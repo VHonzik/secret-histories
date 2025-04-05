@@ -1,0 +1,14 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Ingredient",
+    ["Forge", 8],
+    ["Auctionable", 16]
+  ],
+  "verbs": [
+  ],
+  "art": "paintingmasterforge.png",
+  "title": "The Forge of Days",
+  "text": [],
+  "amount": 1
+}

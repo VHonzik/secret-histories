@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Heart", 6]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentheartc.png",
+  "title": "Waking Chant",
+  "text": ["To Improve or Subvert discard {PassionC}"],
+  "amount": 4
+}

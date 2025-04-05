@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Edge"
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "commissionarticleedgec.png",
+  "title": "Substantial Commission",
+  "text": ["Work({work}): Tap 2{ReasonA} and reveal 6+{Edge}{Lore}.", "Gain {compensationc}, {ReasonB} and {mystique}.","Discard the commission and the patron."],
+  "amount": 1
+}

@@ -1,0 +1,15 @@
+{
+  "area": "Tiny",
+  "aspects": [
+    "heart",
+    "forge",
+    "edge",
+    "knock"
+  ],
+  "verbs": [
+  ],
+  "art": "lionsmith.png",
+  "title": "",
+  "text": [],
+  "amount": 1
+}

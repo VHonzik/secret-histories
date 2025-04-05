@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Forge", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "influenceforge.png",
+  "title": "Rising Heat",
+  "text": ["Decays to {dread}"],
+  "amount": 4
+}

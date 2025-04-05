@@ -1,0 +1,11 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+  ],
+  "art": "ascensionsensationbf.png",
+  "title": "Dedication: Sensation",
+  "text": ["When Season of Ambitions comes, discard","{HealthA} to add {desire} to this card.","At 4 {desire} gain {ascensionsensationc} and discard this.", "Otherwise exhaust {HealthA}."],
+  "amount": 3
+}

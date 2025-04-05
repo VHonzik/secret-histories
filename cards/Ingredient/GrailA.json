@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "library",
+    "Ingredient",
+    ["Grail", 2],
+    ["Auctionable", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "toolgrailb.png",
+  "title": "Stained Gloves",
+  "text": [],
+  "amount": 1
+}

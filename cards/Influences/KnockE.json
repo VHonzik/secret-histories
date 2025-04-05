@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Knock", 10]
+  ],
+  "verbs": [
+  ],
+  "art": "influenceknocke.png",
+  "title": "Subtle Rupture",
+  "text": ["Decays to Subtle Fracture"],
+  "amount": 3
+}

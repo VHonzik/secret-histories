@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Lantern", 8]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentlanternd.png",
+  "title": "Phanaen Invocation",
+  "text": [],
+  "amount": 2
+}

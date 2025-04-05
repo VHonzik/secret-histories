@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "season"
+  ],
+  "verbs": [
+  ],
+  "art": "hunger.png",
+  "title": "Time passes",
+  "text": ["End of turn: All players must pay one {funds}.","If they cannot, they must convert", " one {HealthA} to {affliction}.", "If they still cannot, they starve and die!"],
+  "amount": 1
+}

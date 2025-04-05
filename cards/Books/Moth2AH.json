@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "assetpacked",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "dehoris1latin.png",
+  "title": "De Horis (Book 1)",
+  "text": ["Study({study}): Discard and gain {Moth}{Lore} 2"],
+  "amount": 1
+}

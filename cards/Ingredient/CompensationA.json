@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    ["Lantern", 2],
+    "Ingredient",
+    ["Auctionable", 2]
+  ],
+  "verbs": [],
+  "art": "compensation.png",
+  "title": "Iron Spintria",
+  "text": [],
+  "amount": 10
+}

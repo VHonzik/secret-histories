@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Edge", 10]
+  ],
+  "verbs": [
+  ],
+  "art": "influenceedgee.png",
+  "title": "Furious Air",
+  "text": ["Decays to Rousing Air"],
+  "amount": 3
+}

@@ -1,0 +1,14 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Ingredient",
+    ["Moth", 8],
+    ["Auctionable", 16]
+  ],
+  "verbs": [
+  ],
+  "art": "paintingmastermoth.png",
+  "title": "The Moth",
+  "text": [],
+  "amount": 1
+}

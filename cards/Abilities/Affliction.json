@@ -1,0 +1,16 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 4],
+    "Ingredient",
+    "IllHealth",
+    ["Winter", 2]
+  ],
+  "verbs": [
+    "Dream"
+  ],
+  "art": "affliction.png",
+  "title": "An Affliction",
+  "text": ["Dream({dream}): From this and {HealthB} or {Funds}", "make {HealthA}"],
+  "amount": 6
+}

@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Heart", 2]
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "fragmentheart.png",
+  "title": "Thunderous Secret",
+  "text": ["Answers the White Riddle.","Approach({talk}): If not already revealed,","reveal {cultheart_1} and place your {society} on it."],
+  "amount": 4
+}

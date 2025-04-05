@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "PassionSkillC.png",
+  "title": "Fevered Imagination",
+  "text": ["Work({work}): Tap 4x{PassionA}, draw 3{x}:","1){Knock}{Mystique}+{Heart}{funds}+{Moth}{Contentment}+{Lantern}{PassionB}","2){Knock}{funds}+{Moth}{Mystique}+{Heart}{PassionB}","3){Knock}{fascination}+{Lantern}{funds}+{Edge}{Contentment}", "Optionally discard one {restlessness}."],
+  "amount": 3
+}

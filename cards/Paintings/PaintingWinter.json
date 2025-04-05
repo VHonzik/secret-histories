@@ -1,0 +1,14 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Ingredient",
+    ["Winter", 8],
+    ["Auctionable", 16]
+  ],
+  "verbs": [
+  ],
+  "art": "paintingmasterwinter.png",
+  "title": "The Wolf-Divided",
+  "text": [],
+  "amount": 1
+}

@@ -1,0 +1,11 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+  ],
+  "art": "ascensionenlightenmentb.png",
+  "title": "Dedication: Enlightenment",
+  "text": ["When Season of Ambitions comes, discard","{lore} (any aspect) of greater strength than","number of {desire} here to add another {desire}.","At 4 {desire} gain {ascensionenlightenmentc} and discard this. If you", "cannot, lose {desire} (down to 1) and exhaust {ReasonA}."],
+  "amount": 3
+}

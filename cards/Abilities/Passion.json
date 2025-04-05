@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Ingredient",
+    ["Moth", 2]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "PassionA.png",
+  "title": "Passion",
+  "text": ["Study({study}): Tap {PassionA} and gain {PassionB}"],
+  "amount": 12
+}

@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "ReasonSkillB.png",
+  "title": "Keen Scholarship",
+  "text": ["Reduce({study}): From {Lore}/{Influence} make","two with -2/-4 strength."],
+  "amount": 3
+}

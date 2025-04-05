@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "PassionSkillA.png",
+  "title": "Find an inspiration",
+  "text": ["Upgrade({study}): From 2x {PassionB} and this make", "Vivid Imagination. Also gain {PassionA},", "Envisage the concept and Reputation."],
+  "amount": 3
+}

@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 6],
+    "Influence",
+    ["Lantern", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "ReasonC.png",
+  "title": "Erudition",
+  "text": ["Decays to {ReasonB}"],
+  "amount": 10
+}

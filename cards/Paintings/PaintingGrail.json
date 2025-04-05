@@ -1,0 +1,14 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Ingredient",
+    ["Grail", 8],
+    ["Auctionable", 16]
+  ],
+  "verbs": [
+  ],
+  "art": "paintingmastergrail.png",
+  "title": "The Red Grail",
+  "text": [],
+  "amount": 1
+}

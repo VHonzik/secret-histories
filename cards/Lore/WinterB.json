@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Winter", 4]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentwinterb.png",
+  "title": "White Ceremony",
+  "text": ["To Improve or Subvert discard {PassionC}"],
+  "amount": 4
+}

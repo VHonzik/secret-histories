@@ -1,0 +1,14 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Ingredient",
+    ["Lantern", 8],
+    ["Auctionable", 16]
+  ],
+  "verbs": [
+  ],
+  "art": "paintingmasterlantern.png",
+  "title": "The Door in the Eye",
+  "text": [],
+  "amount": 1
+}

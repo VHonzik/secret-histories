@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Cult"
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "cultlantern_1.png",
+  "title": "Mirror of Glory",
+  "text": ["Talk({talk}): Draw{x}: {Moth}{mystique} and tap this.","Otherwise move {Time} from one temporary","card to another.", "Must pay {funds} if your{society} is not on this."],
+
+  "amount": 1
+}

@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Knock", 4]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentknockb.png",
+  "title": "Iguvine Rite",
+  "text": ["Answers the Stag riddle.","To Improve or Subvert discard {PassionB}."],
+  "amount": 4
+}

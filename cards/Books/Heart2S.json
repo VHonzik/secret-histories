@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "library",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "apolloandmarsyas.png",
+  "title": "Apollo and Marsyas",
+  "text": ["Study({study}): Discard and gain {Heart}{Lore} 2"],
+  "amount": 1
+}

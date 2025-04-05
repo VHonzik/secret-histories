@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+    ["season", 1]
+  ],
+  "verbs": [
+  ],
+  "art": "affliction.png",
+  "title": "Season of Sickness",
+  "text": ["All players convert one {HealthA} to {affliction}.", "If they cannot, they succumb to the illness!"],
+  "amount": 1
+}

@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "painting.palest.png",
+  "title": "Creative Mastery",
+  "text": ["Work({work}): Tap 4x{PassionA}. Show {Lore} and discard","{Pigment} of matching aspect and total strength of 9.", "Gain 2{notoriety}, masterpiece and {Influence} with strength","2, both of the matching aspect."],
+  "amount": 3
+}

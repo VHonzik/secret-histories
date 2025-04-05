@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 4],
+    "Influence",
+    ["Grail", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "PassionB.png",
+  "title": "Glimmering",
+  "text": ["Study({study}): From 2 {PassionB} make {PassionC}"],
+  "amount": 10
+}

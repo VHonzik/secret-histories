@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+    ["season", 1]
+  ],
+  "verbs": [
+  ],
+  "art": "Vision.png",
+  "title": "Season of Visions",
+  "text": ["If any player has {fascination} and does not already", "have {Trembling}, they must discard a {fascination},", "gain {Trembling} and load one {insanity} on it.", "If a player has no {fascination} they gain {fleeting}."],
+  "amount": 1
+}

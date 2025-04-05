@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Forge", 2],
+    ["Grail", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "restlessness.png",
+  "title": "Restlessness",
+  "text": ["Decays to {dread}"],
+  "amount": 10
+}

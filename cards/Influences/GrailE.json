@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Grail", 10]
+  ],
+  "verbs": [
+  ],
+  "art": "influencegraile.png",
+  "title": "Imperative of Appetite",
+  "text": ["Decays to Urgency of Appetite"],
+  "amount": 3
+}

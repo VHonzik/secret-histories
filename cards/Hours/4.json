@@ -1,0 +1,14 @@
+{
+  "area": "Tiny",
+  "aspects": [
+    "lantern",
+    "heart",
+    "knock"
+  ],
+  "verbs": [
+  ],
+  "art": "thunderskin.png",
+  "title": "",
+  "text": [],
+  "amount": 1
+}

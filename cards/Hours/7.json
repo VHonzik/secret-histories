@@ -1,0 +1,14 @@
+{
+  "area": "Tiny",
+  "aspects": [
+    "lantern",
+    "edge",
+    "knock"
+  ],
+  "verbs": [
+  ],
+  "art": "colonel.png",
+  "title": "",
+  "text": [],
+  "amount": 1
+}

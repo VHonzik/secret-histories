@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Heart", 6]
+  ],
+  "verbs": [
+  ],
+  "art": "influenceheartc.png",
+  "title": "Pulsing Airs",
+  "text": ["Decays to Trembling Airs"],
+  "amount": 4
+}

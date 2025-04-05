@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Grail", 6]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentgrailc.png",
+  "title": "Delightful Sacrament",
+  "text": ["To Improve or Subvert discard {ReasonC}"],
+  "amount": 4
+}

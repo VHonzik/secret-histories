@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Cult"
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "cultmoth_1.png",
+  "title": "Wildwood Club",
+  "text": ["Talk({talk}): Draw{x}: {Lantern}{notoriety} and tap this.","Otherwise, they drive your Mr Alden insane.", "You can discard him.", "Must pay {funds} if your{society} is not on this."],
+  "amount": 1
+}

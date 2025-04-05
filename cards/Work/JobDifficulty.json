@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "GloverC.png",
+  "title": "Difficulty at Work",
+  "text": ["Talk({talk}): Tap {PassionA} and gain", "Glover & Glover or, if your Mr Alden is gone,", "gain Senior at Glover & Glover"],
+  "amount": 3
+}

@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "insight.png",
+  "title": "Elementary Insight",
+  "text": ["Improve({study}): From two {Lore}/{Influence} of the", "same aspect and strength make {Lore}/{Influence} of", "that aspect with +2/+4 strength."],
+  "amount": 3
+}

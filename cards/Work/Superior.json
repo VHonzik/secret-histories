@@ -1,0 +1,11 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+  ],
+  "art": "Superior.png",
+  "title": "Your \"Mr Alden\"",
+  "text": ["If you can discard Mr Alden you get a", "promotion at Glover&Glover. Perhaps","someone can help?"],
+  "amount": 3
+}

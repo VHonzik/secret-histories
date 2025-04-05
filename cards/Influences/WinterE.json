@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Winter", 10]
+  ],
+  "verbs": [
+  ],
+  "art": "influencewintere.png",
+  "title": "Bitter Atmosphere",
+  "text": ["Decays to Icy Atmosphere"],
+  "amount": 3
+}

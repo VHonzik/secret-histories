@@ -1,0 +1,12 @@
+{
+  "area": "Special",
+  "aspects": [
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "waywood.png",
+  "title": "Way: The Wood",
+  "text": ["Dream({dream}): Spend {funds} to gain {contentment}.", "Draw{x}: {Winter}{HealthA}to{affliction}"],
+  "amount": 3
+}

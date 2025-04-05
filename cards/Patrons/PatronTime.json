@@ -1,0 +1,13 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Patron"
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "sulochana.png",
+  "title": "Sulochana Amavasya",
+  "text": ["Talk({talk}) to Sulochana to add one", " {Time} token to any temporary card"],
+  "amount": 1
+}

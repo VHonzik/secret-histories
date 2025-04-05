@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "HealthSkillA.png",
+  "title": "Robust Strength",
+  "text": ["Work({work}): Tap {HealthA}, gain {funds} and draw{x}:", "{Forge}{HealthA}to{affliction} | {Winter} {funds}{HealthB} | {HealthB}"],
+  "amount": 3
+}

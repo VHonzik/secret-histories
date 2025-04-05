@@ -1,0 +1,12 @@
+{
+  "area": "Special",
+  "aspects": [
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "waywhite.png",
+  "title": "Way: The White Door",
+  "text": ["Dream({dream}): Tap{HealthA}. From the {whitedoor} deck draw", "one card and gain copy of it. You can mulligan","once, draw 2 cards, pick one to gain copy."],
+  "amount": 3
+}

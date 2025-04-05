@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Moth", 8]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentmothd.png",
+  "title": "Moldywarp Admonitions",
+  "text": [],
+  "amount": 2
+}

@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Forge", 2]
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "fragmentforge.png",
+  "title": "Smith's Secret",
+  "text": ["Approach({talk}): If not already revealed,","reveal {cultforge_1} and place your {society} on it"],
+  "amount": 4
+}

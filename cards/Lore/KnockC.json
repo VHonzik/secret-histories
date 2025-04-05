@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Knock", 6]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentknockc.png",
+  "title": "Consent of Wounds",
+  "text": ["To Improve or Subvert discard {PassionC}"],
+  "amount": 4
+}

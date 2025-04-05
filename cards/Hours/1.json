@@ -1,0 +1,13 @@
+{
+  "area": "Tiny",
+  "aspects": [
+    "lantern",
+    "knock"
+  ],
+  "verbs": [
+  ],
+  "art": "doorintheeye.png",
+  "title": "",
+  "text": [],
+  "amount": 1
+}

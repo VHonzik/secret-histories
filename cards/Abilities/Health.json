@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Ingredient",
+    ["Heart", 2]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "HealthA.png",
+  "title": "Health",
+  "text": ["Study({study}): Tap {HealthA} and gain {HealthB}"],
+  "amount": 12
+}

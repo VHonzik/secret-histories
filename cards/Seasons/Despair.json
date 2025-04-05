@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+    ["season", 1]
+  ],
+  "verbs": [
+  ],
+  "art": "Despair.png",
+  "title": "Season of Despair",
+  "text": ["If any player has {dread} and does not already", "have {Bleak}, they must discard a {dread},", "gain {Bleak} and load one {insanity} on it.", "If a player has no {dread} they gain {fleeting}."],
+  "amount": 1
+}

@@ -1,0 +1,16 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "hunter",
+    "Pigment",
+    "Ingredient",
+    ["Forge", 4],
+    ["Auctionable", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "ingredientforgeb.png",
+  "title": "Bitterblack Salts",
+  "text": ["(Exotic paint can produce masterpiece)"],
+  "amount": 1
+}

@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "season"
+  ],
+  "verbs": [
+  ],
+  "art": "Trembling.png",
+  "title": "Trembling in the Air",
+  "text": ["End of turn: Discard {fleeting} or {dread} and remove", "1{insanity}. Otherwise discard {fascination} and add 1{insanity}.", "At 0{insanity} discard this and gain {fleeting}.", "At 4{insanity} you are lost in a vision. Forever."],
+  "amount": 3
+}

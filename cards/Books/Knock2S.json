@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "library",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "locksmithsdream2.png",
+  "title": "Portions and Proportions",
+  "text": ["Study({study}): Discard and gain {Knock}{Lore} 2"],
+  "amount": 1
+}

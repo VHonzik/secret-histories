@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "library",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "victoryofcrowns.png",
+  "title": "The Victory of Crowns",
+  "text": ["Study({study}): Discard and gain {Edge}{Lore} 2"],
+  "amount": 1
+}

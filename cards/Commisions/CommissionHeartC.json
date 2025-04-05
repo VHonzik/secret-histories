@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Heart"
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "commissionarticleheartc.png",
+  "title": "Substantial Commission",
+  "text": ["Work({work}): Tap {ReasonA}{PassionA}, reveal 6+{Heart}{Lore}.", "Gain {compensationc}, {ReasonB} and {mystique}.","Discard the commission and the patron."],
+  "amount": 1
+}

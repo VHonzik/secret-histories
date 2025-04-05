@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "assetpacked",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "raptintheking.png",
+  "title": "Rapt in the King",
+  "text": ["Study({study}): Discard and gain {Heart}{Lore} 6.","Also convert {HealthA} to {affliction}."],
+  "amount": 1
+}

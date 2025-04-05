@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "assetpacked",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "burningofunburntgod.png",
+  "title": "Burning of Unburnt God",
+  "text": ["Study({study}): Discard and gain {Forge}{Lore} 4.","Also gain {ReasonB}."],
+  "amount": 1
+}

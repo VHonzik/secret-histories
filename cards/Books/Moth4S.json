@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "library",
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "kitlingripe.png",
+  "title": "  Kitling Ripe  ",
+  "text": ["Study({study}): Discard and gain {Moth}{Lore} 4.","Also gain {PassionB}."],
+  "amount": 1
+}

@@ -1,0 +1,12 @@
+{
+  "area": "Special",
+  "aspects": [
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "ascensionsensationc.png",
+  "title": "Ascension: Sensation",
+  "text": ["Work({work}): With total strength of 18+{Grail},","using one of each {Lore}{Influence}{Ingredient}, perform", "a ritual to ascend to immortality and", "win the game!"],
+  "amount": 2
+}

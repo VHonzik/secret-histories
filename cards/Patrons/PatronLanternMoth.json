@@ -1,0 +1,13 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Patron"
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "aladim.png",
+  "title": "Dr Ibn al-Adim",
+  "text": ["Dr Ibn al-Adim gives {Lantern} or {Moth}","commissions"],
+  "amount": 1
+}

@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "StagRiddle.png",
+  "title": "Stag riddle",
+  "text": ["Speak({talk}): Show the proper {lore} and gain", "Way: The Stag Door.", "(You can discard this riddle)"],
+  "amount": 3
+}

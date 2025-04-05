@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary",3],
+    "Influence",
+    ["Moth", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "fleeting.png",
+  "title": "Fleeting Reminiscence",
+  "text": [],
+  "amount": 10
+}

@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Edge", 6]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentedgec.png",
+  "title": "Operation of the Labhite",
+  "text": ["To Improve or Subvert discard {PassionC}"],
+  "amount": 4
+}

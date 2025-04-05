@@ -1,0 +1,11 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+  ],
+  "art": "ReasonSkillC.png",
+  "title": "Sage Scholarship",
+  "text": ["You can Improve or Subvert {Lore} of any","strength without any additional cost"],
+  "amount": 3
+}

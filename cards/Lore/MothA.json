@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Moth", 2]
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "fragmentmoth.png",
+  "title": "Barber's Warning",
+  "text": ["Answers the White Riddle.", "Approach({talk}): If not already revealed,","reveal {cultmoth_1} and place your {society} on it."],
+  "amount": 4
+}

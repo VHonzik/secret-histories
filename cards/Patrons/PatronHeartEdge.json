@@ -1,0 +1,12 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Patron"
+  ],
+  "verbs": [
+  ],
+  "art": "jannings.png",
+  "title": "Count Jannings",
+  "text": ["Count Jannings gives {Heart} or {Edge}","commissions"],
+  "amount": 1
+}

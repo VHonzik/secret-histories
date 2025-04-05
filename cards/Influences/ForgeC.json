@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Forge", 6]
+  ],
+  "verbs": [
+  ],
+  "art": "influenceforgec.png",
+  "title": "Trembling Heat",
+  "text": ["Decays to Rising Heat"],
+  "amount": 4
+}

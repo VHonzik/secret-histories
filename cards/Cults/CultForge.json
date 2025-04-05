@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Cult"
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "cultforge_1.png",
+  "title": "Unflinching Order",
+  "text": ["Talk({talk}): Draw{x}: {Moth}{mystique} and tap this.", "Otherwise gain one card from {hunter} deck.", "Must pay {funds} if your{society} is not on this."],
+  "amount": 1
+}

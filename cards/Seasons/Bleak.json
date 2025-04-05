@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "season"
+  ],
+  "verbs": [
+  ],
+  "art": "Bleak.png",
+  "title": "Bleak Thoughts",
+  "text": ["End of turn: Discard {contentment} and remove", "1{insanity}. Otherwise discard {dread} and add 1{insanity}.", "At 0{insanity} discard this and gain {fleeting}.", "At 4{insanity} the despair drives you to end it all."],
+  "amount": 3
+}

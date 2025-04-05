@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Cult"
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "cultedge_1.png",
+  "title": "Church of the Bright Edge",
+  "text": ["Talk({talk}): Draw{x}: {Moth}{notoriety} and tap this.","Otherwise, they murder Mr Alden.", "Gain {notoriety} and discard him.", "Must pay {funds} if your{society} is not on this."],
+  "amount": 1
+}

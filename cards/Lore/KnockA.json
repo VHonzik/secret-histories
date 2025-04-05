@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Knock", 2]
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "fragmentknock.png",
+  "title": "Locksmith's Secret",
+  "text": ["Answers the White Riddle.", "Approach({talk}): If not already revealed,","reveal {cultknock_1} and place your {society} on it."],
+  "amount": 4
+}

@@ -1,0 +1,16 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "hunter",
+    "Pigment",
+    "Ingredient",
+    ["Lantern", 4],
+    ["Auctionable", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "ingredientlanternb.png",
+  "title": "Refulgin",
+  "text": ["(Exotic paint can produce masterpiece)"],
+  "amount": 1
+}

@@ -1,0 +1,11 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+  ],
+  "art": "ascensionpowerb.png",
+  "title": "Dedication: Power",
+  "text": ["When Season of Ambitions comes, pay as","many {funds} as there are {desire} on this card,","to add another {desire}. At 4 {desire} gain {ascensionpowerc} and", "discard this. If you cannot pay, lose {desire}", "(down to 1) and exhaust {HealthA}."],
+  "amount": 3
+}

@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Edge", 2]
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "fragmentedge.png",
+  "title": "Knife's Secret",
+  "text": ["Answers the White riddle.", "Approach({talk}): If not already revealed,","reveal {cultedge_1} and place your {society} on it."],
+  "amount": 4
+}

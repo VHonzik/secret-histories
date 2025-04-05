@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Lore",
+    ["Lantern", 4]
+  ],
+  "verbs": [
+  ],
+  "art": "fragmentlanternb.png",
+  "title": "Mansus-Glimpse",
+  "text": ["Answers the Stag riddle.","To Improve or Subvert discard {ReasonB}"],
+  "amount": 4
+}

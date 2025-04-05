@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "season"
+  ],
+  "verbs": [
+  ],
+  "art": "Attention.png",
+  "title": "Wrong Kind of Attention",
+  "text": ["End of turn: Discard {notoriety} and draw{x}:","{Knock}{evidence} | discard this","Otherwise discard up to 2{mystique}.","Otherwise discard this."],
+  "amount": 3
+}

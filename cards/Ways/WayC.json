@@ -1,0 +1,12 @@
+{
+  "area": "Special",
+  "aspects": [
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "waystag_after.png",
+  "title": "Way: The Stag Door",
+  "text": ["Dream({dream}): Tap{ReasonA}, from the {stagdoor} deck draw", "one card and gain copy of it. You can mulligan","once, draw 2 cards, pick one to gain copy."],
+  "amount": 3
+}

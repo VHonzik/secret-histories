@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    "whitedoor",
+    ["Temporary", 2],
+    "Influence",
+    ["Edge", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "influenceedge.png",
+  "title": "Thrilling Air",
+  "text": [],
+  "amount": 2
+}

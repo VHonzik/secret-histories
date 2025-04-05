@@ -1,0 +1,14 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Ingredient",
+    ["Heart", 8],
+    ["Auctionable", 16]
+  ],
+  "verbs": [
+  ],
+  "art": "paintingmasterheart.png",
+  "title": "The Sister-and-Witch",
+  "text": [],
+  "amount": 1
+}

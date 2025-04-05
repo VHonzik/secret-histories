@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "PassionSkillB.png",
+  "title": "Wild Imagination",
+  "text": ["Work({work}): Tap 3x{PassionA}, draw 3{x}:", "1){Knock}{Mystique}+{Heart}{funds}+{Moth}{Contentment}+{Lantern}{PassionB}","2){Knock}{funds}+{Moth}{PassionB}+{Heart}{fascination}","3){Moth}{funds}+{Winter}{Contentment}", "Optionally discard one {restlessness}."],
+  "amount": 3
+}

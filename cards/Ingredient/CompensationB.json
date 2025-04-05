@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    ["Grail", 4],
+    "Ingredient",
+    ["Auctionable", 4]
+  ],
+  "verbs": [],
+  "art": "compensationb.png",
+  "title": "Bronze Spintria",
+  "text": [],
+  "amount": 10
+}

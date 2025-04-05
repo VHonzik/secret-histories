@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "library",
+    "Ingredient",
+    ["Lantern", 2]
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "toollanterndcracked.png",
+  "title": "Cracked Mirror",
+  "text": ["Talk({talk}): Pay {compensationb} to make", "Wildering Mirror from this"],
+  "amount": 1
+}

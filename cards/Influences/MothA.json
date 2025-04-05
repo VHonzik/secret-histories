@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 2],
+    "Influence",
+    ["Moth", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "influencemoth.png",
+  "title": "Buzzing in the Brain",
+  "text": ["Decays to {restlessness}"],
+  "amount": 4
+}

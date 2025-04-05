@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Grail"
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "commissionarticlegrail.png",
+  "title": "Commission",
+  "text": ["Work({work}): Tap {ReasonA} and reveal 2+{Grail}{Lore}.","Gain {compensation}, {PassionB} and {mystique}.","Discard the commission and the patron."],
+  "amount": 1
+}

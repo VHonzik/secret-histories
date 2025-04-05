@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Winter"
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "commissionarticlewinter.png",
+  "title": "Commission",
+  "text": ["Work({work}): Tap {ReasonA} and reveal 2+{Winter}{Lore}.","Gain {compensation}, {PassionB} and {mystique}.","Discard the commission and the patron."],
+  "amount": 1
+}

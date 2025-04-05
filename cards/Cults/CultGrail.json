@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Cult"
+  ],
+  "verbs": [
+    "talk"
+  ],
+  "art": "cultgrail_1.png",
+  "title": "Order of the Bloody Cup",
+  "text": ["Talk({talk}): Draw{x}: {Heart} tap this.","Otherwise, they seduce and discredit your", "Mr Alden. You can discard him.", "Must pay {funds} if your{society} is not on this."],
+  "amount": 1
+}

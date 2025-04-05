@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Ingredient",
+    ["Lantern", 2]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "ReasonA.png",
+  "title": "Reason",
+  "text": ["Study({study}): Tap {ReasonA} and gain {ReasonB}"],
+  "amount": 12
+}

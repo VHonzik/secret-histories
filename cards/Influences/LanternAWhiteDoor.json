@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    "whitedoor",
+    ["Temporary", 2],
+    "Influence",
+    ["Lantern", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "influencelantern.png",
+  "title": "Consiousness of Radiance",
+  "text": ["Decays to {fascination}"],
+  "amount": 1
+}

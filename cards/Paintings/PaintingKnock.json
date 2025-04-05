@@ -1,0 +1,14 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Ingredient",
+    ["Knock", 8],
+    ["Auctionable", 16]
+  ],
+  "verbs": [
+  ],
+  "art": "paintingmasterknock.png",
+  "title": "The Mother of Ants",
+  "text": [],
+  "amount": 1
+}

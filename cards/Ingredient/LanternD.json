@@ -1,0 +1,14 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Ingredient",
+    ["Lantern", 8],
+    ["Auctionable", 8]
+  ],
+  "verbs": [
+  ],
+  "art": "toollanternd.png",
+  "title": "Wildering Mirror",
+  "text": [],
+  "amount": 1
+}

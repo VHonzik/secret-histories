@@ -1,0 +1,14 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 6],
+    "Influence",
+    ["Heart", 2]
+  ],
+  "verbs": [
+  ],
+  "art": "HealthC.png",
+  "title": "Fortitude",
+  "text": ["Decays to {HealthB}"],
+  "amount": 10
+}

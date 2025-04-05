@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Forge"
+  ],
+  "verbs": [
+    "work"
+  ],
+  "art": "commissionarticleforgec.png",
+  "title": "Substantial Commission",
+  "text": ["Work({work}): Tap 2{ReasonA} and reveal 6+{Forge}{Lore}.", "Gain {compensationc}, {ReasonB} and {mystique}.","Discard the commission and the patron."],
+  "amount": 1
+}

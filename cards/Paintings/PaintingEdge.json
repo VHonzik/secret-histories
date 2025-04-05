@@ -1,0 +1,14 @@
+{
+  "area": "Special",
+  "aspects": [
+    "Ingredient",
+    ["Edge", 8],
+    ["Auctionable", 16]
+  ],
+  "verbs": [
+  ],
+  "art": "paintingmasteredge.png",
+  "title": "Colonel and Lionsmith",
+  "text": [],
+  "amount": 1
+}

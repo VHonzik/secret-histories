@@ -1,0 +1,16 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 4],
+    "Influence",
+    "IllHealth",
+    ["Lantern", 2]
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "fascination.png",
+  "title": "Fascination",
+  "text": ["Dream({dream}): From {dread} and {fascination} make {fleeting}.","Dream({dream}): If you have {fascination} and {fleeting},", "discard them both."],
+  "amount": 10
+}

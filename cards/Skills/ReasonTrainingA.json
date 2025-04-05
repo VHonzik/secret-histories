@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "ReasonSkillA.png",
+  "title": "Intellectual problem",
+  "text": ["Upgrade({study}): From 2x {ReasonB} and this make", "Scholarship. Also gain {ReasonA} and Cerebral", "problem."],
+  "amount": 3
+}
