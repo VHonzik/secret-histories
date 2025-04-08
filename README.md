@@ -20,7 +20,7 @@ The game is in a testing phase so the delivery mechanism is work in progress. I 
 
 This will take around 2 minutes and generate `export/SecretHistories.pdf`, ~76 page A4 PDF file with 9 cards per page. You can print this, I strongly recommend in color, and do a little bit of crafting to cut out the individual cards. "Perhaps [the Forge of Days](https://cultistsimulator.fandom.com/wiki/The_Forge_of_Days) Hour will notice you 😉". There is 1px spacing between the cards. The cards are designed to fit in 60mmx90mm sleeves.
 
-Then there is [Rules Word document](Rules.docs). Print or keep around digitally.
+Then there is [Rules Word document](Rules.docx). Print or keep around digitally.
 
 Finally, the game uses various tokens in addition to cards. I haven't figured out a great way to manufacture these yet. I would recommend borrowing cubes or paper tokens from other board games. One of the tokens is the game currency "funds". These in particular should be easy to find in your collection, any currency representation with single digit scale will do. You will need following tokens types and amounts:
 - Conceal: ~12 <img src="assets/conceal.png" width="24">
@@ -34,4 +34,4 @@ Do note that the art for the tokens is there so if you want to get creative and 
 
 ## Licensing
 
-I do not own the rights for Cultist Simulator game, its assets and the excellent fictional world it takes place in. This is a fan project to try and play with my boardgame group of friends. The majority of assets for the cards were ripped out of the PC game and occasionally modified to suit this boardgame needs. On the other hand, they are also available publicly at the [Cultist Simulator wiki](https://cultistsimulator.fandom.com/). If you are from Weather Factory and reading this, let's figure out a kickstarter and publishing deal!
+I do not own the rights for Cultist Simulator game, its assets and the excellent fictional world it takes place in. This is a fan project to try and play with my boardgame group of friends. The majority of assets for the cards were ripped out of the PC game and occasionally modified to suit this boardgame needs. On the other hand, they are also available publicly at the [Cultist Simulator wiki](https://cultistsimulator.fandom.com/). If you are from Weather Factory and reading this, let's figure out a kickstarter!

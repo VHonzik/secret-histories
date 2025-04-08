@@ -7,6 +7,6 @@
   ],
   "art": "Attention.png",
   "title": "Wrong Kind of Attention",
-  "text": ["End of turn: Discard {notoriety} and draw{x}:","{Knock}{evidence} | discard this","Otherwise discard up to 2{mystique}.","Otherwise discard this."],
+  "text": ["End of turn: Discard {notoriety}, this card and","{x}: {Knock}{evidence}","Otherwise discard up to 2{mystique}.","If you have neither, discard this."],
   "amount": 3
 }
