@@ -6,6 +6,6 @@
   ],
   "art": "connectionofficial.png",
   "title": "Reputation",
-  "text": ["When painting with Imagination skills,", "for each tapped {PassionA} you can place one", "{conceal} token on {mystique} or {notoriety}. They will be", "concealed from this turn Season of Suspicion."],
+  "text": ["When painting with Imagination skills,", "for each tapped {PassionA} you can place one", "{conceal} token on {mystique} or {notoriety}. They will be", "concealed from this round Season of Suspicion."],
   "amount": 3
 }

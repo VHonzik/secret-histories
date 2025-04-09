@@ -1,0 +1,12 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 6]
+  ],
+  "verbs": [
+  ],
+  "art": "notoriety.png",
+  "title": "Notoriety",
+  "text": [],
+  "amount": 10
+}

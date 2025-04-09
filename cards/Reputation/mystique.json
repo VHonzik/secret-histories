@@ -1,0 +1,12 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Temporary", 6]
+  ],
+  "verbs": [
+  ],
+  "art": "mystique.png",
+  "title": "Mystique",
+  "text": [],
+  "amount": 15
+}
