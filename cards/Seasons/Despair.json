@@ -7,6 +7,6 @@
   ],
   "art": "Despair.png",
   "title": "Season of Despair",
-  "text": ["If any player has {dread} and does not already", "have {Bleak}, they must discard a {dread},", "gain {Bleak} and load one {insanity} on it.", "If a player has no {dread} they gain {fleeting}."],
+  "text": ["If you have at least 1 {dread} gain {Bleak}.", "If you have at least 3 {dread} gain another {Bleak}.", "Discard all {dread} cards."],
   "amount": 1
 }

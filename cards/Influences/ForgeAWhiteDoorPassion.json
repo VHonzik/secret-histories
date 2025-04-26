@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "whitedoor",
+    "Forge"
+  ],
+  "verbs": [
+  ],
+  "art": "influenceforge.png",
+  "title": "Rising Heat",
+  "text": ["Gain {influenceforge} and {PassionB}"],
+  "amount": 1
+}

@@ -7,6 +7,6 @@
   ],
   "art": "ReasonSkillA.png",
   "title": "  Scholarship  ",
-  "text": ["Subvert({study}): From {Lore}/{Influence} of dominant","aspect and same-strength {Lore}/{Influence} of minor","aspect make dominant +2{Lore}/+4{Influence}:","{Moth}{Winter}to{Lantern},{Edge}to{Forge},{Heart}to{Grail},{Knock}to all."],
+  "text": ["Subvert({study}): From {Lore} of dominant aspect"," and same-strength {Lore} of minor aspect","make dominant +2{Lore}:","{Moth}{Winter}to{Lantern},{Edge}to{Forge},{Heart}to{Grail},{Knock}to all."],
   "amount": 3
 }

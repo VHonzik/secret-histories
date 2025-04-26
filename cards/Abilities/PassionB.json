@@ -2,14 +2,13 @@
   "area": "Temporary",
   "aspects": [
     ["Temporary", 4],
-    "Influence",
-    ["Grail", 1]
+    "Influence"
   ],
   "verbs": [
-    "study"
+    "dream"
   ],
   "art": "PassionB.png",
   "title": "Glimmering",
-  "text": ["Study({study}): From 2 {PassionB} make {PassionC}"],
+  "text": ["Dream({dream}): From 2 {PassionB} make {PassionC}"],
   "amount": 10
 }

@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "stagdoor",
+    "Grail"
+  ],
+  "verbs": [
+  ],
+  "art": "influencegrailc.png",
+  "title": "Urgency of Appetite",
+  "text": ["Gain {influencegrailc} and {PassionC}"],
+  "amount": 1
+}

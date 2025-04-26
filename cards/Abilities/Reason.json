@@ -5,10 +5,10 @@
     ["Lantern", 2]
   ],
   "verbs": [
-    "study"
+    "dream"
   ],
   "art": "ReasonA.png",
   "title": "Reason",
-  "text": ["Study({study}): Tap {ReasonA} and gain {ReasonB}"],
+  "text": ["Dream({dream}): Tap {ReasonA} and gain {ReasonB}"],
   "amount": 12
 }

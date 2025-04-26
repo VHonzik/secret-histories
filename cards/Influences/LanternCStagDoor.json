@@ -1,15 +1,13 @@
 {
-  "area": "Temporary",
+  "area": "Normal",
   "aspects": [
     "stagdoor",
-    ["Temporary", 2],
-    "Influence",
-    ["Lantern", 6]
+    "Lantern"
   ],
   "verbs": [
   ],
   "art": "influencelanternc.png",
   "title": "Intensity of Radiance",
-  "text": ["Decays to Consiousness of Radiance"],
+  "text": ["Gain {influencelanternc} and {ReasonC}"],
   "amount": 1
 }

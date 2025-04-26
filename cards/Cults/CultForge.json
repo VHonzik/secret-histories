@@ -1,6 +1,7 @@
 {
   "area": "Normal",
   "aspects": [
+    "Forge",
     "Cult"
   ],
   "verbs": [
@@ -8,6 +9,6 @@
   ],
   "art": "cultforge_1.png",
   "title": "Unflinching Order",
-  "text": ["Talk({talk}): Draw{x}: {Moth}{mystique} and tap this.", "Otherwise gain one card from {hunter} deck.", "Must pay {funds} if your{society} is not on this."],
+  "text": ["Talk({talk}): Tap this and draw{x}:", "{Knock} gain one card from {hunter} deck | {mystique}.", "Must pay {funds} if your{society} is not on this."],
   "amount": 1
 }

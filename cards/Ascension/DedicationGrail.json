@@ -6,6 +6,6 @@
   ],
   "art": "ascensionsensationbf.png",
   "title": "Dedication: Sensation",
-  "text": ["When Season of Ambitions comes, discard","{HealthA} to add {desire} to this card.","At 4 {desire} gain {ascensionsensationc} and discard this.", "Otherwise exhaust {HealthA}."],
+  "text": ["When Season of Ambitions comes, discard","2 {Grail}{Ingredient} to gain {ascensionsensationc} and discard this.", "If you do not, discard one card and gain {dread}."],
   "amount": 3
 }

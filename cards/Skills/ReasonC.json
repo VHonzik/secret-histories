@@ -3,10 +3,9 @@
   "aspects": [
   ],
   "verbs": [
-    "study"
   ],
-  "art": "ReasonSkillB.png",
-  "title": "Keen Scholarship",
-  "text": ["Reduce({study}): From {Lore}/{Influence} make","two with -2/-4 strength."],
+  "art": "ReasonSkillC.png",
+  "title": "Sage Scholarship",
+  "text": ["You can Improve or Subvert {Lore} of any","strength without any additional cost"],
   "amount": 3
 }

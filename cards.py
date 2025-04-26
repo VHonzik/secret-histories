@@ -14,11 +14,12 @@ rootPath=Path.cwd()
 cardsPath = rootPath / "cards"
 assetsPath = rootPath / "assets"
 exportPath = rootPath / "export"
-exportCardsPath =exportPath / "cards"
+exportCardsPath = exportPath / "cards"
 exportPageImagesPath = exportPath / "pageImages"
 dpi = 300
 physicalCardSize = (58, 89) # mm
 physicalPageSize = (210, 297) # mm
+patchOnly = False
 
 titleFontPath = os.path.join(assetsPath, 'LinLibertine_RB.ttf')
 titleFontSize = 100 # px
@@ -72,15 +73,18 @@ cardsGridDimension = (math.floor(pageSize[0] / cardSize[0]), math.floor(pageSize
 
 inlineIconSize = (mmToPixel(4),mmToPixel(4))
 
+usedArt = set()
+
 def sanitizeName(name):
   s = str(name).strip().replace(" ", "_")
   s = re.sub(r"(?u)[^-\w.]", "", s)
   return s
 
 def cardAddArt(cardImage, artName, areaName):
+  global usedArt
   artImagePath = assetsPath / artName
+  usedArt.add(artName)
   with Image.open(artImagePath) as artImage:
-
     region = (0, 0)
     if areaName == "Tiny":
       ratio = artImage.height / artImage.width
@@ -91,13 +95,15 @@ def cardAddArt(cardImage, artName, areaName):
     cardImage.paste(artImage, region)
 
 def cardAddBorder(cardImage):
-  borderImagePath = assetsPath / "Border.png"
+  borderImagePath = assetsPath / ("BorderPatch.png" if patchOnly else "Border.png")
+  usedArt.add("Border.png")
   with Image.open(borderImagePath) as borderImage:
     borderImage.convert('RGBA')
     cardImage.alpha_composite(borderImage)
 
 def cardAddArea(cardImage, areaType):
   areaImagePath = assetsPath / f"{areaType}Area.png"
+  usedArt.add(f"{areaType}Area.png")
   with Image.open(areaImagePath) as areaImage:
     areaImage.convert('RGBA')
     cardImage.alpha_composite(areaImage)
@@ -130,6 +136,7 @@ def cardAddText(cardImage, cardImageDraw, text, i, n):
   for inlineIcon in inlineIconsMatch:
     icon = inlineIcon.group(1)
     iconPath = assetsPath / f"{icon}.png"
+    usedArt.add(f"{icon}.png")
     inlineIcons.append({'path': iconPath})
 
   inlineSpacesRe = "-{" + str(inlineSpaceCount) + "}"
@@ -148,6 +155,7 @@ def cardAddText(cardImage, cardImageDraw, text, i, n):
 
 def cardAddVerb(cardImage, verb, i):
   verbImagePath = assetsPath / f"{verb}.png"
+  usedArt.add(f"{verb}.png")
   with Image.open(verbImagePath) as verbImage:
     verbImage = verbImage.resize((smallIconSize[0], smallIconSize[0]))
     region = (verbX, verbStartY + i * verbOffsetY)
@@ -177,6 +185,7 @@ def aspectIcon(aspect):
 
 def cardAddAspect(cardImage, cardImageDraw, aspect, startX):
   aspectImagePath = assetsPath / aspectIcon(aspect)
+  usedArt.add(aspectIcon(aspect))
   with Image.open(aspectImagePath) as aspectImage:
     aspectImage = aspectImage.resize((smallIconSize[0], smallIconSize[0]))
     region = (startX, aspectY)
@@ -194,7 +203,7 @@ def cardAddAspects(cardImage, cardImageDraw, aspects):
   totalWidth = totalWidth + (len(aspects)-1) * aspectSpace
 
   startX = math.floor(cardSize[0] - totalWidth - aspectXRight)
-  for (i, aspect) in enumerate(aspects):
+  for (_, aspect) in enumerate(aspects):
     cardAddAspect(cardImage, cardImageDraw, aspect, startX)
     startX = math.floor(startX + aspectWidth(cardImageDraw, aspect) + aspectSpace)
 
@@ -223,15 +232,17 @@ def createCardImage(cardJson, cardJsonPath, cardJsonMd5):
     cardImage = Image.new('RGBA', cardSize, '#ffffff00')
     cardImageDraw = ImageDraw.Draw(cardImage)
 
-    cardAddArt(cardImage, cardJson['art'], cardJson['area'])
+    if not patchOnly:
+      cardAddArt(cardImage, cardJson['art'], cardJson['area'])
     cardAddBorder(cardImage)
     cardAddArea(cardImage, cardJson['area'])
     cardAddTitle(cardImageDraw, cardJson['title'])
     for i in range(len(cardJson['text'])):
       cardAddText(cardImage, cardImageDraw, cardJson['text'][i], i, len(cardJson['text']))
 
-    for i in range(len(cardJson['verbs'])):
-      cardAddVerb(cardImage, cardJson['verbs'][i], i)
+    if not patchOnly:
+      for i in range(len(cardJson['verbs'])):
+        cardAddVerb(cardImage, cardJson['verbs'][i], i)
 
     if len(cardJson['aspects']) > 0:
       cardAddAspects(cardImage, cardImageDraw, cardJson['aspects'])
@@ -284,6 +295,18 @@ def createPdfFromImagesInFolder():
     pdf.image(str(pagePath), 0, 0, physicalPageSize[0], physicalPageSize[1])
   pdf.output(f"{exportPath}\\SecretHistories.pdf", "F")
 
+def checkAssetsUsed():
+  unusedArt = []
+  for assetFile in assetsPath.glob("*.png"):
+    if not (assetFile.name in usedArt):
+      unusedArt.append(assetFile.name)
+  if len(unusedArt) > 0:
+    print(f"{len(unusedArt)} assets not used in any card ⚠️:")
+    for art in unusedArt:
+      print(f"\t\t{assetsPath / art}")
+  else:
+    print(f"\t All {len(usedArt)} assets were used ✔️ ")
+
 def main():
   """ Main program """
   if not exportPath.exists():
@@ -313,6 +336,9 @@ def main():
 
   print("Creating PDF...")
   createPdfFromImagesInFolder()
+
+  #print("Checking art...")
+  #checkAssetsUsed()
 
   return 0
 

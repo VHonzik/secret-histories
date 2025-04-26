@@ -3,8 +3,7 @@
   "aspects": [
     ["Temporary", 4],
     "Ingredient",
-    "IllHealth",
-    ["Winter", 2]
+    "IllHealth"
   ],
   "verbs": [
     "Dream"

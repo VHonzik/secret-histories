@@ -2,14 +2,13 @@
   "area": "Temporary",
   "aspects": [
     ["Temporary", 4],
-    "Influence",
-    ["Heart", 1]
+    "Influence"
   ],
   "verbs": [
-    "study"
+    "dream"
   ],
   "art": "HealthB.png",
   "title": "Vitality",
-  "text": ["Study({study}): From 2 {HealthB} make {HealthC}"],
+  "text": ["Dream({dream}): From 2 {HealthB} make {HealthC}"],
   "amount": 10
 }

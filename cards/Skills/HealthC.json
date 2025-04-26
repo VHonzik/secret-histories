@@ -5,8 +5,8 @@
   "verbs": [
     "work"
   ],
-  "art": "HealthSkillB.png",
-  "title": " Iron Strength ",
-  "text": ["Work({work}): Tap {HealthA}, gain {funds} and {HealthB}.", "Draw{x}: {Edge}{funds}"],
+  "art": "HealthSkillC.png",
+  "title": "Unyielding Strength",
+  "text": ["Work({work}): Tap {HealthA}, gain {funds} and {HealthB}", "Draw{x}: {Heart}{funds}", "You are now immune to Season of Sickness"],
   "amount": 3
 }

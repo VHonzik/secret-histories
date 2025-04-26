@@ -8,6 +8,6 @@
   ],
   "art": "commissionarticleedgeb.png",
   "title": "Significant Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal 4+{Edge}{Lore}.", "Gain {compensationb}, {ReasonB} and {mystique}.","Discard the commission and the patron."],
+  "text": ["Work({work}): Tap {ReasonA} and reveal 4+{Edge}{Lore}.", "Gain {compensationb} and {ReasonB}.","Discard the commission and the patron."],
   "amount": 1
 }

@@ -2,8 +2,7 @@
   "area": "Temporary",
   "aspects": [
     ["Temporary", 2],
-    "Influence",
-    ["Heart", 2]
+    "Influence"
   ],
   "verbs": [
   ],

@@ -1,0 +1,13 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "stagdoor",
+    "Forge"
+  ],
+  "verbs": [
+  ],
+  "art": "influenceforgec.png",
+  "title": "Trembling Heat",
+  "text": ["Gain {influenceforgec} and {ReasonC}"],
+  "amount": 1
+}

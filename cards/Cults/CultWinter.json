@@ -1,6 +1,7 @@
 {
   "area": "Normal",
   "aspects": [
+    "Winter",
     "Cult"
   ],
   "verbs": [
@@ -8,6 +9,6 @@
   ],
   "art": "cultwinter_1.png",
   "title": "Children of Silence",
-  "text": ["Talk({talk}): Draw{x}: {Moth}{notoriety} and tap this.", "Otherwise gain one card from {hunter} deck.", "Must pay {funds} if your{society} is not on this."],
+  "text": ["Talk({talk}): Tap this and draw{x}:", "{Knock} gain one card from {hunter} deck | {notoriety}.", "Must pay {funds} if your{society} is not on this."],
   "amount": 1
 }

@@ -5,8 +5,8 @@
   "verbs": [
     "study"
   ],
-  "art": "HealthSkillB.png",
-  "title": "Iron Training",
-  "text": ["Upgrade({study}): From 2x {HealthC} and this make", "Iron Strength. Also gain {HealthA} and Unyielding", "Training. (You can discard Robust Strength)"],
+  "art": "HealthSkillC.png",
+  "title": "Unyielding Training",
+  "text": ["Upgrade({study}): From 2x {HealthC} and this make", "Unyielding Strength. Also gain 2x{HealthA}.", "(You can discard Robust Strength)"],
   "amount": 3
 }

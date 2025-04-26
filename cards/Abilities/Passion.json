@@ -2,13 +2,13 @@
   "area": "Normal",
   "aspects": [
     "Ingredient",
-    ["Moth", 2]
+    ["Forge", 2]
   ],
   "verbs": [
-    "study"
+    "dream"
   ],
   "art": "PassionA.png",
   "title": "Passion",
-  "text": ["Study({study}): Tap {PassionA} and gain {PassionB}"],
+  "text": ["Dream({dream}): Tap {PassionA} and gain {PassionB}"],
   "amount": 12
 }

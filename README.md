@@ -6,7 +6,7 @@ Unofficial print&play card boardgame for 2-3 players based on the [Cultist Simul
 
 Secret Histories is card-heavy boardgame designed for 3 players. The main mechanics, borrowing from BoardGameGeek terminology, are:
 - Race: Players race to achieve immortality through an occult ritual. Whoever performs an ascension ritual first wins the game. Players need to gather occult lore, influence and ingredient of the right aspect and strength.
-- Action Points/Action drafting: There are 4 types of actions player can do: Work, Study, Dream and Talk. But they can only do 3 unique ones each turn. Additionally, some actions are picked from a shared limited pool.
+- Action Points/Action drafting: There are 4 types of actions player can do: Work, Study, Dream and Talk. But they can only do 3 unique ones each round. Additionally, some actions are picked from a shared limited pool.
 - Hand Management/Push Your Luck/Player Elimination: Players fall under effects of powerful yet temporary "influences." And not all of them are good. As seasons change, they must careful manage their mental state or risk succumbing to ill effects entirely. You can always play it safe but takes time that you don't always have. And if that wasn't enough, the authorities don't take kindly to the occult activities either.
 - Hidden Information: Many key pieces for final ritual are obtained secretly. Victory won't come out of the blue but it is not always clear how close an individual player is.
 - Temporary Cards: Influences are fickle in their nature.
@@ -23,12 +23,9 @@ This will take around 2 minutes and generate `export/SecretHistories.pdf`, ~76 p
 Then there is [Rules Word document](Rules.docx). Print or keep around digitally.
 
 Finally, the game uses various tokens in addition to cards. I haven't figured out a great way to manufacture these yet. I would recommend borrowing cubes or paper tokens from other board games. One of the tokens is the game currency "funds". These in particular should be easy to find in your collection, any currency representation with single digit scale will do. You will need following tokens types and amounts:
-- Conceal: ~12 <img src="assets/conceal.png" width="24">
-- Desire: ~12 <img src="assets/desire.png" width="24">
-- Insanity: ~15 <img src="assets/insanity.png" width="24">
-- Time: ~40 <img src="assets/Time.png" width="24">
+- Time: ~45 <img src="assets/Time.png" width="24">
 - Society: ~3 for each player (distinct) <img src="assets/society.png" width="24">
-- Funds: Players will own around 30 worth of funds if they are rich, likely way less
+- Funds: Players will own around 20 worth of funds if they are rich, likely way less
 
 Do note that the art for the tokens is there so if you want to get creative and create them yourself, more power to you and let me know how you did it 🥰
 

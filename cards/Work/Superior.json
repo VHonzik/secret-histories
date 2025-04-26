@@ -3,9 +3,10 @@
   "aspects": [
   ],
   "verbs": [
+    "talk"
   ],
   "art": "Superior.png",
   "title": "Your \"Mr Alden\"",
-  "text": ["If you can discard Mr Alden you get a", "promotion at Glover&Glover. Perhaps","someone can help?"],
+  "text": ["Talk({talk}): Reveal {lore}s until you reach total", "strength of 6+. Discard this and get a", "promotion at Glover&Glover."],
   "amount": 3
 }

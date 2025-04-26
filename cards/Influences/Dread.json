@@ -3,14 +3,13 @@
   "aspects": [
     ["Temporary", 4],
     "Influence",
-    "IllHealth",
-    ["Edge", 2]
+    "IllHealth"
   ],
   "verbs": [
     "dream"
   ],
   "art": "dread.png",
   "title": "Dread",
-  "text": ["Dream({dream}): From {dread} and {fascination} make {fleeting}.","Dream({dream}): If you have {contentment} and {dread}," , "discard them both."],
+  "text": ["Dream({dream}): If you have {contentment} and {dread}," , "discard them both."],
   "amount": 10
 }

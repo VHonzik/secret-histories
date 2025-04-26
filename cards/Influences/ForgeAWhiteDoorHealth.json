@@ -1,15 +1,13 @@
 {
-  "area": "Temporary",
+  "area": "Normal",
   "aspects": [
     "whitedoor",
-    ["Temporary", 2],
-    "Influence",
-    ["Forge", 2]
+    "Forge"
   ],
   "verbs": [
   ],
   "art": "influenceforge.png",
   "title": "Rising Heat",
-  "text": [],
-  "amount": 3
+  "text": ["Gain {influenceforge} and {HealthB}"],
+  "amount": 1
 }

@@ -7,6 +7,6 @@
   ],
   "art": "hunger.png",
   "title": "Time passes",
-  "text": ["End of round: All players must pay one {funds}.","If they cannot, they must convert", " one {HealthA} to {affliction}.", "If they still cannot, they starve and die!"],
+  "text": ["You must pay one {funds}. If you cannot,","you must convert one {HealthA} to {affliction}.", "If you still cannot, you starve and die!"],
   "amount": 1
 }

@@ -2,9 +2,7 @@
   "area": "Temporary",
   "aspects": [
     ["Temporary", 2],
-    "Influence",
-    ["Forge", 2],
-    ["Grail", 2]
+    "Influence"
   ],
   "verbs": [
   ],

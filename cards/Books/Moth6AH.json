@@ -10,6 +10,6 @@
   ],
   "art": "vienneseconundra.png",
   "title": "The Viennese Conundra",
-  "text": ["Study({study}): Discard and gain {Moth}{Lore} 6.","Also gain {fascination}."],
+  "text": ["Study({study}): Discard and gain {Moth}{Lore} 6.","Also gain {dread}."],
   "amount": 1
 }

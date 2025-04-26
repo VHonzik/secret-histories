@@ -1,6 +1,7 @@
 {
   "area": "Normal",
   "aspects": [
+    "Grail",
     "Cult"
   ],
   "verbs": [
@@ -8,6 +9,6 @@
   ],
   "art": "cultgrail_1.png",
   "title": "Order of the Bloody Cup",
-  "text": ["Talk({talk}): Draw{x}: {Heart} tap this.","Otherwise, they seduce and discredit your", "Mr Alden. You can discard him.", "Must pay {funds} if your{society} is not on this."],
+  "text": ["Talk({talk}): Tap this and draw{x}:", "{Knock} transform between {HealthB}, {PassionB} or {ReasonB}","keeping the {time} tokens.", "Must pay {funds} if your{society} is not on this."],
   "amount": 1
 }

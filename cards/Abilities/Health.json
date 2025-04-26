@@ -2,13 +2,13 @@
   "area": "Normal",
   "aspects": [
     "Ingredient",
-    ["Heart", 2]
+    ["Grail", 2]
   ],
   "verbs": [
-    "study"
+    "dream"
   ],
   "art": "HealthA.png",
   "title": "Health",
-  "text": ["Study({study}): Tap {HealthA} and gain {HealthB}"],
+  "text": ["Dream({dream}): Tap {HealthA} and gain {HealthB}"],
   "amount": 12
 }
