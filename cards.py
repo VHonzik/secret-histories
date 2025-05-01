@@ -83,27 +83,32 @@ def sanitizeName(name):
 def cardAddArt(cardImage, artName, areaName):
   global usedArt
   artImagePath = assetsPath / artName
-  usedArt.add(artName)
+  usedArt.add(artName.lower())
   with Image.open(artImagePath) as artImage:
     region = (0, 0)
     if areaName == "Tiny":
       ratio = artImage.height / artImage.width
       artImage = artImage.resize((cardSize[0], math.floor(cardSize[0] * ratio)))
       region = (0, -20)
+    elif areaName == "No":
+      ratio = artImage.height / artImage.width
+      artImage = artImage.resize((cardSize[0], math.floor(cardSize[0] * ratio)))
     else:
       artImage = artImage.resize((cardSize[0], cardSize[0]))
     cardImage.paste(artImage, region)
 
 def cardAddBorder(cardImage):
   borderImagePath = assetsPath / ("BorderPatch.png" if patchOnly else "Border.png")
-  usedArt.add("Border.png")
+  usedArt.add("Border.png".lower())
   with Image.open(borderImagePath) as borderImage:
     borderImage.convert('RGBA')
     cardImage.alpha_composite(borderImage)
 
 def cardAddArea(cardImage, areaType):
+  if areaType == "No":
+    return
   areaImagePath = assetsPath / f"{areaType}Area.png"
-  usedArt.add(f"{areaType}Area.png")
+  usedArt.add(f"{areaType}Area.png".lower())
   with Image.open(areaImagePath) as areaImage:
     areaImage.convert('RGBA')
     cardImage.alpha_composite(areaImage)
@@ -136,7 +141,7 @@ def cardAddText(cardImage, cardImageDraw, text, i, n):
   for inlineIcon in inlineIconsMatch:
     icon = inlineIcon.group(1)
     iconPath = assetsPath / f"{icon}.png"
-    usedArt.add(f"{icon}.png")
+    usedArt.add(f"{icon}.png".lower())
     inlineIcons.append({'path': iconPath})
 
   inlineSpacesRe = "-{" + str(inlineSpaceCount) + "}"
@@ -155,7 +160,7 @@ def cardAddText(cardImage, cardImageDraw, text, i, n):
 
 def cardAddVerb(cardImage, verb, i):
   verbImagePath = assetsPath / f"{verb}.png"
-  usedArt.add(f"{verb}.png")
+  usedArt.add(f"{verb}.png".lower())
   with Image.open(verbImagePath) as verbImage:
     verbImage = verbImage.resize((smallIconSize[0], smallIconSize[0]))
     region = (verbX, verbStartY + i * verbOffsetY)
@@ -185,7 +190,7 @@ def aspectIcon(aspect):
 
 def cardAddAspect(cardImage, cardImageDraw, aspect, startX):
   aspectImagePath = assetsPath / aspectIcon(aspect)
-  usedArt.add(aspectIcon(aspect))
+  usedArt.add(aspectIcon(aspect).lower())
   with Image.open(aspectImagePath) as aspectImage:
     aspectImage = aspectImage.resize((smallIconSize[0], smallIconSize[0]))
     region = (startX, aspectY)
@@ -298,7 +303,7 @@ def createPdfFromImagesInFolder():
 def checkAssetsUsed():
   unusedArt = []
   for assetFile in assetsPath.glob("*.png"):
-    if not (assetFile.name in usedArt):
+    if not (assetFile.name.lower() in usedArt):
       unusedArt.append(assetFile.name)
   if len(unusedArt) > 0:
     print(f"{len(unusedArt)} assets not used in any card ⚠️:")
@@ -337,8 +342,8 @@ def main():
   print("Creating PDF...")
   createPdfFromImagesInFolder()
 
-  #print("Checking art...")
-  #checkAssetsUsed()
+  print("Checking art...")
+  checkAssetsUsed()
 
   return 0
 
