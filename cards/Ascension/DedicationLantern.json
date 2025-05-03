@@ -6,6 +6,6 @@
   ],
   "art": "ascensionenlightenmentb.png",
   "title": "Dedication: Enlightenment",
-  "text": ["When Season of Ambitions comes, discard","2 {Lantern}{Ingredient} to gain {ascensionenlightenmentc} and discard this.", "If you do not, discard one card and gain {dread}."],
+  "text": ["When Season of Ambitions comes, discard","2x {Lantern}{Ingredient} to gain {ascensionenlightenmentc} and discard this.", "If you do not, discard one card and gain {dread}."],
   "amount": 3
 }
