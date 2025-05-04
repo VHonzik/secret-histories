@@ -7,6 +7,6 @@
   ],
   "art": "PassionSkillA.png",
   "title": "Vivid Imagination",
-  "text": ["Work({work}): Tap 2x{PassionA}, draw 2{x}:", "1) {Heart}{Mystique}+{Knock}{funds}+{Lantern}{PassionB}+{Moth}{Contentment}", "2) {Lantern}{funds}+{Edge}{PassionB}+{Forge}{Contentment}", "Optionally discard one {restlessness}."],
+  "text": ["Work({work}): Tap 2x{PassionA}, draw 2{x}:", "1) {Heart}{Mystique}+{Knock}{funds}+{Lantern}{PassionB}+{Moth}{Contentment}", "2) {Lantern}{funds}+{Edge}{PassionB}+{Forge}{Contentment}"],
   "amount": 3
 }

@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "library",
     "text",
     ["Auctionable", 1]
   ],
@@ -11,5 +10,6 @@
   "art": "orchidtransfigurations2.png",
   "title": "Orchid Transfigurations",
   "text": ["Study({study}): Discard and gain {Grail}{Lore} 4.","Also gain {dread}."],
-  "amount": 1
+  "amount": 1,
+  "deck": "Bookshop"
 }

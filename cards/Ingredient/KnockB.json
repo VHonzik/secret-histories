@@ -1,10 +1,7 @@
 {
   "area": "Normal",
   "aspects": [
-    "hunter",
     "Pigment",
-    "Ingredient",
-    ["Knock", 4],
     ["Auctionable", 2]
   ],
   "verbs": [
@@ -12,5 +9,6 @@
   "art": "ingredientknockb.png",
   "title": "Byzantine Tinct",
   "text": ["(Exotic paint can produce masterpiece)"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Robbery"
 }

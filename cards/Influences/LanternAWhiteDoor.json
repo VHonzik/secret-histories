@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "whitedoor",
     "Lantern"
   ],
   "verbs": [
@@ -9,5 +8,6 @@
   "art": "influencelantern.png",
   "title": "Consiousness of Radiance",
   "text": ["Gain {influencelantern} and {ReasonB}."],
-  "amount": 2
+  "amount": 2,
+  "deck": "WhiteDoor"
 }

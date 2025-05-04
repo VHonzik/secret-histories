@@ -8,6 +8,6 @@
   ],
   "art": "fragmentknockb.png",
   "title": "Iguvine Rite",
-  "text": ["Answers the Stag riddle.","To Improve or Subvert discard {PassionB}."],
+  "text": ["To Improve or Subvert discard {PassionB}."],
   "amount": 4
 }

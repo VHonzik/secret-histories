@@ -7,6 +7,6 @@
   ],
   "art": "painting.palest.png",
   "title": "Creative Mastery",
-  "text": ["Work({work}): Tap 4x{PassionA}. Show {Lore} and discard","{Pigment} of matching aspect and total strength of 8.", "Gain 2{notoriety}, masterpiece and {Influence} with","strength 2, both of the matching aspect."],
+  "text": ["Work({work}): Tap 4x{PassionA}. Discard a {Pigment}","and show {Lore}, to gain masterpiece of", "matching principle if not already taken.","Also Gain 2{notoriety}."],
   "amount": 3
 }

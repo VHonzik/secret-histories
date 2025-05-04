@@ -337,13 +337,13 @@ def main():
   print("Page will fit {0}x{1} cards".format(cardsGridDimension[0], cardsGridDimension[1]))
 
   print("Creating pages for PDF...")
-  createPDFPageImages()
+  #createPDFPageImages()
 
   print("Creating PDF...")
-  createPdfFromImagesInFolder()
+  #createPdfFromImagesInFolder()
 
   print("Checking art...")
-  checkAssetsUsed()
+  #checkAssetsUsed()
 
   return 0
 

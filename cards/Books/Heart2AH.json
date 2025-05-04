@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "assetpacked",
     "text",
     ["Auctionable", 1]
   ],
@@ -11,5 +10,6 @@
   "art": "apolloandmarsyas.png",
   "title": "Apollo and Marsyas",
   "text": ["Study({study}): Discard and gain {Heart}{Lore} 2"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Auction"
 }

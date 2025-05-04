@@ -7,6 +7,6 @@
   ],
   "art": "WhiteRiddle.png",
   "title": "White riddle",
-  "text": ["Speak({talk}): Show the proper {lore} and gain", "Way: The White Door and Stag riddle.", "(You can discard this riddle)"],
+  "text": ["Speak({talk}): Show {edge}/{heart}/{knock}/{winter}/{moth}", "{lore} of strength 2 or more and gain","Way: The White Door and Stag riddle.", "(You can discard this riddle)"],
   "amount": 3
 }

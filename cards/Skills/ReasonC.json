@@ -6,6 +6,6 @@
   ],
   "art": "ReasonSkillC.png",
   "title": "Sage Scholarship",
-  "text": ["You can Improve or Subvert {Lore} of any","strength without any additional cost"],
+  "text": ["Improving or Subverting {Lore} of any","strength ignores all cost and you can use","matching {Cult} for free as part of the action."],
   "amount": 3
 }

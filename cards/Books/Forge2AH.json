@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "assetpacked",
     "text",
     ["Auctionable", 1]
   ],
@@ -11,5 +10,6 @@
   "art": "sixlettersonnecessity.png",
   "title": "Six Letters on Necessity",
   "text": ["Study({study}): Discard and gain {Forge}{Lore} 2"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Auction"
 }

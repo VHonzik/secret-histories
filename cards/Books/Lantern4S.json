@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "library",
     "text",
     ["Auctionable", 1]
   ],
@@ -11,5 +10,6 @@
   "art": "onwhatiscontainedbysilver.png",
   "title": "Contained By Silver",
   "text": ["Study({study}): Discard and gain {Lantern}{Lore} 4.","Also gain {ReasonB} and {dread}."],
-  "amount": 1
+  "amount": 1,
+  "deck": "Bookshop"
 }

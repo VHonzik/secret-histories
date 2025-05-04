@@ -7,6 +7,6 @@
   ],
   "art": "insight.png",
   "title": "Elementary Insight",
-  "text": ["Improve({study}): From two {Lore}/{Influence} of the", "same aspect and strength make {Lore}/{Influence} of", "that aspect with +2/+4 strength."],
+  "text": ["Improve({study}): From two {Lore}/{Influence} of same", "aspect make {Lore}/{Influence} with +2/+4 strength.", "You can also Subvert({study}) {Lore}, refer", "to Study guide for details."],
   "amount": 3
 }

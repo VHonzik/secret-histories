@@ -9,5 +9,6 @@
   "art": "poppy.png",
   "title": "Poppy Lascelles",
   "text": ["Poppy gives {Knock} or {Winter} commissions"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Patron"
 }

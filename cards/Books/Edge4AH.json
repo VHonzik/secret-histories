@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "assetpacked",
     "text",
     ["Auctionable", 1]
   ],
@@ -11,5 +10,6 @@
   "art": "debellismurorum.png",
   "title": "De Bellis Murorum",
   "text": ["Study({study}): Discard and gain {Edge}{Lore} 4"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Auction"
 }

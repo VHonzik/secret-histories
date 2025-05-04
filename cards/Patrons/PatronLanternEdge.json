@@ -8,6 +8,7 @@
   ],
   "art": "aladim.png",
   "title": "Dr Ibn al-Adim",
-  "text": ["Dr Ibn al-Adim gives {Lantern} or {Moth}","commissions"],
-  "amount": 1
+  "text": ["Dr Ibn al-Adim gives {Lantern} or {Edge}","commissions"],
+  "amount": 1,
+  "deck": "Patron"
 }

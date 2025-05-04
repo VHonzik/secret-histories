@@ -7,6 +7,6 @@
   ],
   "art": "Ambition.png",
   "title": "Season of Ambitions",
-  "text": ["If you don't have dedication card,","gain 1{restlessness}"],
+  "text": ["If you don't have dedication card,","gain 1{dread}"],
   "amount": 1
 }
