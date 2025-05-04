@@ -1,6 +1,6 @@
 # Secret Histories
 
-Unofficial print&play card boardgame for 2-3 players based on the [Cultist Simulator](https://store.steampowered.com/app/718670/Cultist_Simulator/) video game. Average play time is unknown yet 😅
+Unofficial print&play card boardgame for 2-3 players based on the [Cultist Simulator](https://store.steampowered.com/app/718670/Cultist_Simulator/) video game. Average play time is somewhere between 2-3 hours.
 
 ## Game description
 

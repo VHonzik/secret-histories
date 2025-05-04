@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "whitedoor",
     "Forge"
   ],
   "verbs": [
@@ -9,5 +8,6 @@
   "art": "influenceforge.png",
   "title": "Rising Heat",
   "text": ["Gain {influenceforge} and {ReasonB}"],
-  "amount": 1
+  "amount": 1,
+  "deck": "WhiteDoor"
 }

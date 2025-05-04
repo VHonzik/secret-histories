@@ -7,6 +7,6 @@
   ],
   "art": "Suspicion.png",
   "title": "Season of Suspicion",
-  "text": ["For each {mystique} you hold discard 1 card.","For each {notoriety} you hold discard 2 card.", "If you cannot, pay 2 {funds} for each card."],
+  "text": ["For each {mystique} you hold discard 1 card.","For each {notoriety} you hold discard 2 card.", "If you cannot, gain {Bleak}."],
   "amount": 1
 }

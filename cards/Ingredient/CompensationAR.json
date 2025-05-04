@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "hunter",
     ["Lantern", 2],
     "Ingredient",
     ["Auctionable", 2]
@@ -10,5 +9,6 @@
   "art": "compensation.png",
   "title": "Iron Spintria",
   "text": [],
-  "amount": 5
+  "amount": 3,
+  "deck": "Robbery"
 }

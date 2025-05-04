@@ -8,6 +8,7 @@
   ],
   "art": "commissionarticleedge.png",
   "title": "Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal 2+{Edge}{Lore}.","Gain {compensation} and {PassionB}.","Discard the commission and the patron."],
-  "amount": 1
+  "text": ["Work({work}): Tap {ReasonA} and reveal {Edge} or {Forge}","{Lore} of strength 2+. Gain {compensation} and {PassionB}.","Discard the commission and the patron."],
+  "amount": 1,
+  "deck": "Commission"
 }

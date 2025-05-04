@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "stagdoor",
     "Lantern"
   ],
   "verbs": [
@@ -9,5 +8,6 @@
   "art": "influencelanternc.png",
   "title": "Intensity of Radiance",
   "text": ["Gain {influencelanternc} and {ReasonC}"],
-  "amount": 1
+  "amount": 2,
+  "deck": "StagDoor"
 }

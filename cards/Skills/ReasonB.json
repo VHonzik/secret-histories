@@ -3,10 +3,9 @@
   "aspects": [
   ],
   "verbs": [
-    "study"
   ],
   "art": "ReasonSkillA.png",
   "title": "  Scholarship  ",
-  "text": ["Subvert({study}): From {Lore} of dominant aspect"," and same-strength {Lore} of minor aspect","make dominant +2{Lore}:","{Moth}{Winter}to{Lantern},{Edge}to{Forge},{Heart}to{Grail},{Knock}to all."],
+  "text": ["When improving or subverting {Lore}, you can","also place your {society} on {Cult} with matching", "principle. If the {Cult} is not revealed yet,", "reveal it and place your {society} on it."],
   "amount": 3
 }

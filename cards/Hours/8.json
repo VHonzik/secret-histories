@@ -11,5 +11,6 @@
   "art": "lionsmith.png",
   "title": "",
   "text": [],
-  "amount": 1
+  "amount": 1,
+  "deck": "Hour"
 }

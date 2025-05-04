@@ -1,0 +1,12 @@
+{
+  "area": "Normal",
+  "aspects": [
+  ],
+  "verbs": [
+  ],
+  "art": "funds.png",
+  "title": "More Funds",
+  "text": ["Gain 3 {funds}"],
+  "amount": 1,
+  "deck": "Robbery"
+}

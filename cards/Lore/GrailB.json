@@ -8,6 +8,6 @@
   ],
   "art": "fragmentgrailb.png",
   "title": "Megalesian Incantation",
-  "text": ["Answers the Stag riddle.", "To Improve or Subvert discard {ReasonB}."],
+  "text": ["To Improve or Subvert discard {ReasonB}."],
   "amount": 4
 }

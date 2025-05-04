@@ -1,7 +1,8 @@
 {
   "area": "Temporary",
   "aspects": [
-    ["Temporary", 4]
+    ["Temporary", 4],
+    "IllHealth"
   ],
   "verbs": [
   ],

@@ -1,10 +1,7 @@
 {
   "area": "Normal",
   "aspects": [
-    "hunter",
     "Pigment",
-    "Ingredient",
-    ["Moth", 4],
     ["Auctionable", 2]
   ],
   "verbs": [
@@ -12,5 +9,6 @@
   "art": "ingredientmothb.png",
   "title": "Piebald Pigment",
   "text": ["(Exotic paint can produce masterpiece)"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Robbery"
 }

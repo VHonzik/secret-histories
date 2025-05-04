@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "hunter",
     "Pigment",
     "Ingredient",
     ["Lantern", 4],
@@ -12,5 +11,6 @@
   "art": "ingredientlanternb.png",
   "title": "Refulgin",
   "text": ["(Exotic paint can produce masterpiece)"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Robbery"
 }

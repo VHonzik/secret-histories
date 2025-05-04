@@ -1,8 +1,7 @@
 {
   "area": "Special",
   "aspects": [
-    "Ingredient",
-    ["Edge", 8],
+    "Edge",
     ["Auctionable", 16]
   ],
   "verbs": [

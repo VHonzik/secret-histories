@@ -7,6 +7,6 @@
   ],
   "art": "PassionSkill0.png",
   "title": "Creativity",
-  "text": ["Work({work}): Tap {PassionA}, draw{x}:", "{Knock}{funds}+{Lantern}{PassionB}+{Moth}{Contentment}","Optionally discard one {restlessness}."],
+  "text": ["Work({work}): Tap {PassionA}, draw{x}:", "{Knock}{funds}+{Lantern}{PassionB}+{Moth}{Contentment}"],
   "amount": 3
 }

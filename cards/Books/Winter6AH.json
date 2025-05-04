@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "assetpacked",
     "text",
     ["Auctionable", 2]
   ],
@@ -11,5 +10,6 @@
   "art": "stumm.png",
   "title": "STUMM!",
   "text": ["Study({study}): Discard and gain {Winter}{Lore} 6","Also gain {dread}"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Auction"
 }

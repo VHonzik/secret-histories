@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "stagdoor",
     "Forge"
   ],
   "verbs": [
@@ -9,5 +8,6 @@
   "art": "influenceforgec.png",
   "title": "Trembling Heat",
   "text": ["Gain {influenceforgec} and {PassionC}"],
-  "amount": 1
+  "amount": 1,
+  "deck": "StagDoor"
 }

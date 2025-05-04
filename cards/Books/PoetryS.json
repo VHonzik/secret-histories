@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "library",
     "text",
     ["Auctionable", 1]
   ],
@@ -11,5 +10,6 @@
   "art": "textbookpassion.png",
   "title": "Collection of Poetry",
   "text": ["Study({study}): Discard and gain {PassionC}"],
-  "amount": 3
+  "amount": 3,
+  "deck": "Bookshop"
 }

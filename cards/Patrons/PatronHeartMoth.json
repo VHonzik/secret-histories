@@ -7,6 +7,7 @@
   ],
   "art": "jannings.png",
   "title": "Count Jannings",
-  "text": ["Count Jannings gives {Heart} or {Edge}","commissions"],
-  "amount": 1
+  "text": ["Count Jannings gives {Heart} or {Moth}","commissions"],
+  "amount": 1,
+  "deck": "Patron"
 }

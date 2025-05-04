@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "assetpacked",
     "text",
     ["Auctionable", 1]
   ],
@@ -11,5 +10,6 @@
   "art": "locksmithsdream1.png",
   "title": "Light through the Keyhole",
   "text": ["Study({study}): Discard and gain {Lantern}{Lore} 2"],
-  "amount": 1
+  "amount": 1,
+  "deck": "Auction"
 }

@@ -7,6 +7,6 @@
   ],
   "art": "PassionSkillC.png",
   "title": "Fevered Imagination",
-  "text": ["Work({work}): Tap 3x{PassionA}, draw 3{x}:","1){Knock}{Mystique}+{Heart}{funds}+{Moth}{Contentment}+{Lantern}{PassionB}","2){Knock}{funds}+{Moth}{Mystique}+{Heart}{PassionB}","3){Lantern}{funds}+{Edge}{Contentment}", "Optionally discard one {restlessness}."],
+  "text": ["Work({work}): Tap 3x{PassionA}, draw 3{x}:","1){Knock}{Mystique}+{Heart}{funds}+{Moth}{Contentment}+{Lantern}{PassionB}","2){Knock}{funds}+{Moth}{Mystique}+{Heart}{PassionB}","3){Lantern}{funds}+{Edge}{Contentment}"],
   "amount": 3
 }

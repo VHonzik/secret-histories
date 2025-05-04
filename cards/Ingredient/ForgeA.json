@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "library",
     "Ingredient",
     ["Forge", 2],
     ["Auctionable", 2]
@@ -11,5 +10,6 @@
   "art": "toolforgeb.png",
   "title": "Cinnabar Amulet",
   "text": [],
-  "amount": 1
+  "amount": 1,
+  "deck": "Bookshop"
 }

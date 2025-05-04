@@ -1,8 +1,7 @@
 {
   "area": "Special",
   "aspects": [
-    "Ingredient",
-    ["Winter", 8],
+    "Winter",
     ["Auctionable", 16]
   ],
   "verbs": [

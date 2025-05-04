@@ -8,6 +8,7 @@
   ],
   "art": "commissionarticlewinterc.png",
   "title": "Substantial Commission",
-  "text": ["Work({work}): Tap 2{ReasonA} and reveal 6+{Winter}{Lore}.", "Gain {compensationc}, {ReasonB} and {mystique}.","Discard the commission and the patron."],
-  "amount": 1
+  "text": ["Work({work}): Tap {ReasonA} and reveal {Winter} or {Lantern}","{Lore} of strength 6+. Gain {compensationc}, {ReasonC} and {notoriety}.","Discard the commission and the patron."],
+  "amount": 1,
+  "deck": "Commission"
 }

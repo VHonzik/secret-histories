@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "whitedoor",
     "Grail"
   ],
   "verbs": [
@@ -9,5 +8,6 @@
   "art": "influencegrail.png",
   "title": "Awareness of Appetite",
   "text": ["Gain {influencegrail} and {HealthB}"],
-  "amount": 2
+  "amount": 2,
+  "deck": "WhiteDoor"
 }

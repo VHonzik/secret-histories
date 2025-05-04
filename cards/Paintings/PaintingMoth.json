@@ -1,8 +1,7 @@
 {
   "area": "Special",
   "aspects": [
-    "Ingredient",
-    ["Moth", 8],
+    "Moth",
     ["Auctionable", 16]
   ],
   "verbs": [

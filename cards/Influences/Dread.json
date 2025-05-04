@@ -2,7 +2,6 @@
   "area": "Temporary",
   "aspects": [
     ["Temporary", 4],
-    "Influence",
     "IllHealth"
   ],
   "verbs": [

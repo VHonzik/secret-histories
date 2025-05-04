@@ -1,7 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "stagdoor",
     "Grail"
   ],
   "verbs": [
@@ -9,5 +8,6 @@
   "art": "influencegrailc.png",
   "title": "Urgency of Appetite",
   "text": ["Gain {influencegrailc} and {HealthC}"],
-  "amount": 2
+  "amount": 2,
+  "deck": "StagDoor"
 }

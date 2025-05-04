@@ -8,6 +8,6 @@
   ],
   "art": "fragmentforgeb.png",
   "title": "Ardent Orison",
-  "text": ["Answers the Stag riddle.","To Improve or Subvert discard {ReasonB}."],
+  "text": ["To Improve or Subvert discard {ReasonB}."],
   "amount": 4
 }
