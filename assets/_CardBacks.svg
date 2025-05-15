@@ -10,7 +10,7 @@
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="_CardBacks.svg"
    xml:space="preserve"
-   inkscape:export-filename="CardBackCult.png"
+   inkscape:export-filename="CardBackEmpty.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -143,7 +143,8 @@
      id="image8"
      x="22.3855"
      y="37.885498"
-     inkscape:label="Patron" /><image
+     inkscape:label="Patron"
+     style="display:none" /><image
      width="13.229"
      height="13.229"
      preserveAspectRatio="none"
@@ -151,4 +152,14 @@
      id="image9"
      x="22.3855"
      y="37.885498"
-     inkscape:label="Cult" /></svg>
+     inkscape:label="Cult"
+     style="display:none" /><image
+     width="13.229"
+     height="13.229"
+     preserveAspectRatio="none"
+     xlink:href="season.png"
+     id="image10"
+     x="22.3855"
+     y="37.885498"
+     inkscape:label="Season"
+     style="display:none" /></svg>

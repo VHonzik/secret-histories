@@ -1,0 +1,27 @@
+# Save File
+cardsx=10
+cardsy=2
+card-width=685
+card-height=1051
+zoom=0.15
+background-color=-16777216
+0_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Abilities\\12-Health.png
+1_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Abilities\\12-Passion.png
+2_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Abilities\\12-Reason.png
+3_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Skills\\3-HealthA.png
+4_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Skills\\3-HealthTrainingA.png
+5_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Skills\\3-PassionA.png
+6_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Skills\\3-PassionTrainingA.png
+7_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Skills\\3-ReasonA.png
+8_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Skills\\3-ReasonTrainingA.png
+9_0=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Work\\3-JobDifficulty.png
+0_1=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Work\\3-Superior.png
+1_1=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Ways\\3-WayA.png
+2_1=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Ways\\3-RiddleA.png
+3_1=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Guides\\3-ActionTracker.png
+4_1=C\:\\SecretHistoriesBoardGame\\secret-histories\\export\\cards\\Guides\\3-StudyGuide.png
+5_1=null
+6_1=null
+7_1=null
+8_1=null
+9_1=null

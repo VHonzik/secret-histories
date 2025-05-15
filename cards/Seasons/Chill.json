@@ -8,5 +8,6 @@
   "art": "seasonsilence.png",
   "title": "Season of Chill",
   "text": ["Nothing happens..."],
-  "amount": 1
+  "amount": 1,
+  "deck": "Season"
 }
