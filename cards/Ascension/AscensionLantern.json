@@ -7,6 +7,6 @@
   ],
   "art": "ascensionenlightenmentc.png",
   "title": "Ascension: Enlightenment",
-  "text": ["Work({work}): With total strength of 20+{Lantern},","using one of each {Lore}{Influence}{Ingredient}, perform", "a ritual to ascend to immortality and", "win the game!"],
+  "text": ["Work({work}): With total strength of 20+{Lantern},","using 1 {Lore}, 1-2 {Ingredient} and 1-2 {Influence},", "perform a ritual to ascend to immortality", "and win the game!"],
   "amount": 2
 }

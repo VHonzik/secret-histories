@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Grail", 1],
+    ["Temporary", 4],
+    "Influence"
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "HealthB.png",
+  "title": "Vitality",
+  "text": ["Dream({dream}): From 2 {HealthB} make {HealthC}"],
+  "amount": 10
+}

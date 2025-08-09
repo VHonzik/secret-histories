@@ -9,7 +9,7 @@
   ],
   "art": "orchidtransfigurations2.png",
   "title": "Orchid Transfigurations",
-  "text": ["Study({study}): Discard and gain {Grail}{Lore} 4.","Also gain {dread}."],
+  "text": ["Study({study}): Discard and gain {Grail}{Lore} 4.","Also gain {HealthB} and {dread}."],
   "amount": 1,
   "deck": "Bookshop"
 }

@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Lantern", 1],
+    ["Temporary", 4],
+    "Influence"
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "ReasonB.png",
+  "title": "Wisdom",
+  "text": ["Dream({dream}): From 2 {ReasonB} make {ReasonC}"],
+  "amount": 10
+}

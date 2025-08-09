@@ -6,6 +6,6 @@
   ],
   "art": "ascensionpowerb.png",
   "title": "Dedication: Power",
-  "text": ["When Season of Ambitions comes, discard","2x {Forge}{Ingredient} to gain {ascensionpowerc} and discard this.", "If you do not, discard one card and gain {dread}."],
+  "text": ["When Season of Ambitions comes, discard","4 {funds} to gain {ascensionpowerc} and discard this.", "If you do not, discard one card and gain {dread}."],
   "amount": 3
 }

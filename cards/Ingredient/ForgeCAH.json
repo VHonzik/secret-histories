@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Ingredient",
+    ["Forge", 6],
+    ["Auctionable", 8]
+  ],
+  "verbs": [
+  ],
+  "art": "ingredientforged.png",
+  "title": "Xanthotic Essence",
+  "text": [],
+  "amount": 1,
+  "deck": "Auction"
+}

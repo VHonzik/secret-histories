@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Forge", 1],
+    ["Temporary", 4],
+    "Influence"
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "PassionB.png",
+  "title": "Glimmering",
+  "text": ["Dream({dream}): From 2 {PassionB} make {PassionC}"],
+  "amount": 10
+}

@@ -14,12 +14,14 @@ Secret Histories is card-heavy boardgame designed for 3 players. The main mechan
 
 ## I want to play right now!
 
-*Note: Check out digital version below if you have Tabletop Simulator on Steam.*
+Check out [Github releases](https://github.com/VHonzik/secret-histories/releases) with PDFs that you can print and play.
 
-The game is in a testing phase so the delivery mechanism is work in progress.  I will probably have Github release with PDFs in near future. If you still desperately need to play right now, you will need to do some work yourself. First of all, you will need [python 3](https://www.python.org/downloads/) installed with following packages: [FPDF](https://pypi.org/project/fpdf/) and [Pillow](https://pypi.org/project/pillow/). From the root of this repo run:
+## I want the latest the greatest version
+
+ If you want to help with testing the latest version up-to-date, you will need to do some work yourself. First of all, you will need [python 3](https://www.python.org/downloads/) installed with following packages: [FPDF](https://pypi.org/project/fpdf/) and [Pillow](https://pypi.org/project/pillow/). From the root of this repo run:
 - `python cards.py`
 
-This will take around 2 minutes and generate `export/SecretHistories.pdf`, ~65 page A4 PDF file with 9 cards per page. You can print this, I strongly recommend in color, and do a little bit of crafting to cut out the individual cards. "Perhaps [the Forge of Days](https://cultistsimulator.fandom.com/wiki/The_Forge_of_Days) Hour will notice you 😉". There is 1px spacing between the cards. The cards are designed to fit in 60mmx90mm sleeves.
+This will take around 2 minutes and generate `export/SecretHistories.pdf`, ~68 page A4 PDF file with 9 cards per page. You can print this, I strongly recommend in color, and do a little bit of crafting to cut out the individual cards. "Perhaps [the Forge of Days](https://cultistsimulator.fandom.com/wiki/The_Forge_of_Days) Hour will notice you 😉". There is 1px spacing between the cards. The cards are designed to fit in 60mmx90mm sleeves.
 
 Then there is [Rules Word document](Rules.docx). Print or keep around digitally.
 
@@ -32,7 +34,7 @@ Do note that the art for the tokens is there so if you want to get creative and 
 
 ## Digital version
 
-I have made a work in progress [Tabletop Simulator mod of this game](https://steamcommunity.com/sharedfiles/filedetails/?id=3479818565).
+I have made a work in progress [Tabletop Simulator mod of this game](https://steamcommunity.com/sharedfiles/filedetails/?id=3479818565). It is currently little behind the main, sitting at version 0.3.
 
 ## Licensing
 

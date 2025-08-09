@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Forge", 3],
+    ["Temporary", 6],
+    "Influence"
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "PassionC.png",
+  "title": "Fervor",
+  "text": ["Intertwine({dream}): Place one {PassionB} underneath","this to have 4{Forge}. You can only do this once.","Decays to {PassionB}"],
+  "amount": 10
+}

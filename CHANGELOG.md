@@ -1,5 +1,51 @@
 # Game changelog
 
+## 0.4
+
+Ascension now allows 2 ingredients and influences. Major influences rework. Painting skills give sequential rewards now. Ways are now passives improving existing dreaming actions.
+
+### Balance
+
+- Health, Passion and Reason are no longer ingredients with aspects
+- Ascension cards now requires 1 Lore, 1-2 Ingredients and 1-2 Influences instead of 1+1+1
+- Dedication: Power cost 2xIngredients -> 4 Funds
+- Dedication: Sensation cost 2xIngredients -> 2 Health
+- Dedication: Enlightenment cost 2xIngredients -> 1 Lore
+- Completely remove Stag Door and White Door decks
+- There are now only 2 Collection of Poetry and 2 Collection of Essays in bookstore (down from 3)
+- Burning of Unburnt God (Forge 4 book) reward Wisdom -> Glimmering
+- Orchid Transfigurations (Grail 4 book) gives Vitality in addition to Dread
+- Kitling Ripe (Moth 4 book) reward Glimmering -> Vitality
+- Add new Medical records book rewarding Fortitude. 2x to bookstore and 1x to auction house
+- Forge Substantial Commission now longer gives Mystique
+- Winter Commission and Significant Commission reward Wisdom -> Vitality
+- Winter Substantial Commission reward Erudition -> Fortitude
+- Remove Contentment card completely in favor of Dread card having the same mechanic
+- Remove all influences apart from ability based ones
+- Vitality, Wisdom and Glimmering are now Grail/Lantern/Forge influences with strength 1
+- Fortitude, Erudition and Fervor are now Grail/Lantern/Forge influences with strength 3
+- Fortitude, Erudition and Fervor can now be intertwined (dream action) with Vitality/Wisdom/Glimmering once to have strength 4
+- All Spintria now have all three aspects: Grail, Lantern and Forge
+- Bronze Spintria has Forge aspect with strength 6
+- Remove Pigments and Masterpieces for non-major aspects
+- Add one Bitterblack Salts (Forge pigment) to bookstore
+- Auction house Ingredients strength 8 -> 6
+- Wildering Mirror (Lantern ingredient) strength 8 -> 6
+- Masterpieces strength 8 -> 6
+- Unyielding Strength 50% chance Funds -> Funds + Vitality
+- Creativity, Vivid Imagination, Fevered Imagination now give sequential rewards instead of Hours based ones. The average reward rates are roughly the same across the entire sequence.
+- Creativity, Vivid Imagination, Fevered Imagination no longer reward Contentment
+- Creative Mastery no longer requires tapping Passion
+- Way: The Wood is now passive effect that has 30% chance to reward extra Vitality/Wisdom/Glimmering when dreaming with Health/Reason/Passion
+- Way: The White Door is now passive effect that gives extra time token when doing any dream action
+- Way: The Stag Door is now passive effect that allows one extra intertwining on Fortitude, Erudition and Fervor and time tokens from Vitality/Wisdom/Glimmering are transferred over
+
+### UX
+- Update Rules.docs regarding above changes and expanded tips section
+- Add sequential rewards symbol
+- Add missing society asset
+- Add major aspects to minor aspect commissions
+
 ## 0.3
 
 Introduced card backs and restlessness was removed. Commissions were reworked. Reason skills synchronized with Cults and Pigments were simplified.

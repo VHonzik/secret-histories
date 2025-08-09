@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Ingredient",
+    ["Lantern", 6],
+    ["Auctionable", 8]
+  ],
+  "verbs": [
+  ],
+  "art": "ingredientlanternd.png",
+  "title": "Glassfinger Toxin",
+  "text": [],
+  "amount": 1,
+  "deck": "Auction"
+}

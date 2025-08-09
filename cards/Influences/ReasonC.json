@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Lantern", 3],
+    ["Temporary", 6],
+    "Influence"
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "ReasonC.png",
+  "title": "Erudition",
+  "text": ["Intertwine({dream}): Place one {ReasonB} underneath","this to have 4{Lantern}. You can only do this once.","Decays to {ReasonB}"],
+  "amount": 10
+}

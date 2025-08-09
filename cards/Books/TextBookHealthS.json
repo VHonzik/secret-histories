@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "text",
+    ["Auctionable", 1]
+  ],
+  "verbs": [
+    "study"
+  ],
+  "art": "textbookhealth.png",
+  "title": "Medical records",
+  "text": ["Study({study}): Discard and gain {HealthC}"],
+  "amount": 2,
+  "deck": "Bookshop"
+}

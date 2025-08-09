@@ -1,12 +1,11 @@
 {
-  "area": "Special",
+  "area": "Normal",
   "aspects": [
   ],
   "verbs": [
-    "dream"
   ],
   "art": "waywood.png",
   "title": "Way: The Wood",
-  "text": ["Dream({dream}): Spend {funds} to gain {contentment}.", "Draw{x}: {Winter}{HealthA}to{affliction}"],
+  "text": ["When dreaming ({dream}) with {PassionA}/{ReasonA}/{HealthA},", "draw{x}: {Moth} gain additional {PassionB}/{ReasonB}/{HealthB}"],
   "amount": 3
 }

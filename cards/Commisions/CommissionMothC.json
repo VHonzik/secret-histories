@@ -1,7 +1,8 @@
 {
   "area": "Normal",
   "aspects": [
-    "Moth"
+    "Moth",
+    "Lantern"
   ],
   "verbs": [
     "work"

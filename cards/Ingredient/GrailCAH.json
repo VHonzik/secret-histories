@@ -1,0 +1,15 @@
+{
+  "area": "Normal",
+  "aspects": [
+    "Ingredient",
+    ["Grail", 6],
+    ["Auctionable", 8]
+  ],
+  "verbs": [
+  ],
+  "art": "ingredientgraild.png",
+  "title": "Amaranthine Nectar",
+  "text": [],
+  "amount": 1,
+  "deck": "Auction"
+}

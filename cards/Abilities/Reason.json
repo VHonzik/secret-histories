@@ -1,8 +1,6 @@
 {
   "area": "Normal",
   "aspects": [
-    "Ingredient",
-    ["Lantern", 2]
   ],
   "verbs": [
     "dream"

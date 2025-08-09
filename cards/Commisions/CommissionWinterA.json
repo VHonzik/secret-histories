@@ -1,14 +1,15 @@
 {
   "area": "Normal",
   "aspects": [
-    "Winter"
+    "Winter",
+    "Lantern"
   ],
   "verbs": [
     "work"
   ],
   "art": "commissionarticlewinter.png",
   "title": "Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal {Winter} or {Lantern}","{Lore} of strength 2+. Gain {compensation} and {ReasonB}.","Discard the commission and the patron."],
+  "text": ["Work({work}): Tap {ReasonA} and reveal {Winter} or {Lantern}","{Lore} of strength 2+. Gain {compensation} and {HealthB}.","Discard the commission and the patron."],
   "amount": 1,
   "deck": "Commission"
 }

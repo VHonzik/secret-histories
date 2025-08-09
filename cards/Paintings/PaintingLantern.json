@@ -2,7 +2,7 @@
   "area": "Special",
   "aspects": [
     "Ingredient",
-    ["Lantern", 8],
+    ["Lantern", 6],
     ["Auctionable", 16]
   ],
   "verbs": [

@@ -9,7 +9,7 @@
   ],
   "art": "kitlingripe.png",
   "title": "  Kitling Ripe  ",
-  "text": ["Study({study}): Discard and gain {Moth}{Lore} 4.","Also gain {PassionB}."],
+  "text": ["Study({study}): Discard and gain {Moth}{Lore} 4.","Also gain {HealthB}."],
   "amount": 1,
   "deck": "Bookshop"
 }

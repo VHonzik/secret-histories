@@ -9,7 +9,7 @@
   ],
   "art": "burningofunburntgod.png",
   "title": "Burning of Unburnt God",
-  "text": ["Study({study}): Discard and gain {Forge}{Lore} 4.","Also gain {ReasonB}."],
+  "text": ["Study({study}): Discard and gain {Forge}{Lore} 4.","Also gain {PassionB}."],
   "amount": 1,
   "deck": "Bookshop"
 }

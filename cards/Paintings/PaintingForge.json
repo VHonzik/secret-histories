@@ -2,7 +2,7 @@
   "area": "Special",
   "aspects": [
     "Ingredient",
-    ["Forge", 8],
+    ["Forge", 6],
     ["Auctionable", 16]
   ],
   "verbs": [

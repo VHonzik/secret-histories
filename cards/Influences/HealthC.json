@@ -1,0 +1,15 @@
+{
+  "area": "Temporary",
+  "aspects": [
+    ["Grail", 3],
+    ["Temporary", 6],
+    "Influence"
+  ],
+  "verbs": [
+    "dream"
+  ],
+  "art": "HealthC.png",
+  "title": "Fortitude",
+  "text": ["Intertwine({dream}): Place one {HealthB} underneath","this to have 4{Grail}. You can only do this once.","Decays to {HealthB}"],
+  "amount": 10
+}

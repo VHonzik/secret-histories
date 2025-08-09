@@ -7,6 +7,6 @@
   ],
   "art": "painting.palest.png",
   "title": "Creative Mastery",
-  "text": ["Work({work}): Tap 4x{PassionA}. Discard a {Pigment}","and show {Lore}, to gain masterpiece of", "matching principle if not already taken.","Also Gain 2{notoriety}."],
+  "text": ["Work({work}): Discard a {Pigment} to gain","masterpiece of matching principle,", "if not already taken. Also Gain 2{notoriety}."],
   "amount": 3
 }

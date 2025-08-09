@@ -1,6 +1,8 @@
 {
   "area": "Normal",
   "aspects": [
+    ["Forge", 2],
+    ["Grail", 2],
     ["Lantern", 2],
     "Ingredient",
     ["Auctionable", 2]

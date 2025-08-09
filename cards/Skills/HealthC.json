@@ -7,6 +7,6 @@
   ],
   "art": "HealthSkillC.png",
   "title": "Unyielding Strength",
-  "text": ["Work({work}): Tap {HealthA}, gain {funds} and {HealthB}", "Draw{x}: {Heart}{funds}", "You are now immune to Season of Sickness"],
+  "text": ["Work({work}): Tap {HealthA}, gain {funds} and {HealthB}", "Draw{x}: {Heart}{funds}{HealthB}", "You are now immune to Season of Sickness"],
   "amount": 3
 }
