@@ -2,9 +2,11 @@
 
 ## 0.5
 
+### Balance
+
 - Influences are now only upgraded through the cards' texts. This was the case in 0.4 already but it is now official part of the rules.
 
-## UX
+### UX
 
 - Remove Contentment from Rules document
 - Add note about card backs to Rules document
