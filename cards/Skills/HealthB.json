@@ -7,6 +7,6 @@
   ],
   "art": "HealthSkillA.png",
   "title": "Robust Strength",
-  "text": ["Work({work}): Tap {HealthA}, gain {funds} and draw{x}:", "{Forge}{HealthA}to{affliction} | {Moth} {funds}{HealthB} | {HealthB}"],
+  "text": ["Work({work}): Tap {HealthA}, gain {funds} and draw{Hour}:", "{Forge}{HealthA}to{affliction} | {Moth} {funds}{HealthB} | {HealthB}"],
   "amount": 3
 }

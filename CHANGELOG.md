@@ -1,5 +1,21 @@
 # Game changelog
 
+## 0.5
+
+- Influences are now only upgraded through the cards' texts. This was the case in 0.4 already but it is now official part of the rules.
+
+## UX
+
+- Remove Contentment from Rules document
+- Add note about card backs to Rules document
+- Because of influence upgrading change remove all mentions of upgrading them from other cards
+    - Remove influence mentions from Elementary Insight
+    - Remove influences example from Study Guide card
+- Add Deck icon to the top-left of cards from a deck
+- Cult cards now have cults deck
+- Reduce amounts for few cards: Bronze Spintria 10 -> 7, Silver Spintria 10 -> 5, Mystique 15 -> 10, Notoriety 10 -> 6
+- Remove leftover talk verb symbols from all patrons
+
 ## 0.4
 
 Ascension now allows 2 ingredients and influences. Major influences rework. Painting skills give sequential rewards now. Ways are now passives improving existing dreaming actions.

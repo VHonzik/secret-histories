@@ -60,6 +60,10 @@ verbX = cardSize[0] - verbSize[0] - rightIconsXOffset
 verbStartY = mmToPixel(4)
 verbOffsetY = mmToPixel(1) + verbSize[1]
 
+deckSize = smallIconSize
+deckX = rightIconsXOffset
+deckY = mmToPixel(4)
+
 textY = math.floor(cardSize[1] - mmToPixel(16))
 textYLong =  math.floor(cardSize[1] - mmToPixel(14))
 
@@ -73,7 +77,10 @@ cardsGridDimension = (math.floor(pageSize[0] / cardSize[0]), math.floor(pageSize
 
 inlineIconSize = (mmToPixel(4),mmToPixel(4))
 
+# Tracking
 usedArt = set()
+cardCount = 0
+pageCount = 0
 
 def sanitizeName(name):
   s = str(name).strip().replace(" ", "_")
@@ -162,9 +169,17 @@ def cardAddVerb(cardImage, verb, i):
   verbImagePath = assetsPath / f"{verb}.png"
   usedArt.add(f"{verb}.png".lower())
   with Image.open(verbImagePath) as verbImage:
-    verbImage = verbImage.resize((smallIconSize[0], smallIconSize[0]))
+    verbImage = verbImage.resize((verbSize[0], verbSize[1]))
     region = (verbX, verbStartY + i * verbOffsetY)
     cardImage.paste(verbImage, region)
+
+def cardAddDeck(cardImage, deck):
+  deckImagePath = assetsPath / f"{deck}.png"
+  usedArt.add(f"{deck}.png".lower())
+  with Image.open(deckImagePath) as deckImage:
+      deckImage = deckImage.resize((deckSize[0], deckSize[1]))
+      region = (deckX, deckY)
+      cardImage.paste(deckImage, region)
 
 def aspectWidth(cardImageDraw, aspect):
   # Just icon
@@ -230,6 +245,7 @@ def checkCardExists(cardJson, cardJsonPath, cardJsonMd5):
   return (cardPath, upToDate)
 
 def createCardImage(cardJson, cardJsonPath, cardJsonMd5):
+  global cardCount
   (cardPath, upToDate) = checkCardExists(cardJson, cardJsonPath, cardJsonMd5)
 
   if not upToDate:
@@ -248,6 +264,8 @@ def createCardImage(cardJson, cardJsonPath, cardJsonMd5):
     if not patchOnly:
       for i in range(len(cardJson['verbs'])):
         cardAddVerb(cardImage, cardJson['verbs'][i], i)
+      if 'deck' in cardJson:
+        cardAddDeck(cardImage, cardJson['deck'])
 
     if len(cardJson['aspects']) > 0:
       cardAddAspects(cardImage, cardImageDraw, cardJson['aspects'])
@@ -257,6 +275,17 @@ def createCardImage(cardJson, cardJsonPath, cardJsonMd5):
     cardImage.save(cardPath, pnginfo=info)
   else:
     print(f"\t{cardJsonPath.stem} ✖️")
+
+  cardCount = cardCount + cardJson['amount']
+
+def createCardImages():
+  for (root, _, files) in os.walk(cardsPath):
+    for cardJsonFileName in files:
+      cardJsonPath = Path(root) / cardJsonFileName
+      cardJsonMd5 = hashlib.md5(open(cardJsonPath, 'rb').read()).hexdigest()
+      with open(cardJsonPath, 'r') as cardJsonFile:
+        cardJson = json.load(cardJsonFile)
+        createCardImage(cardJson, cardJsonPath, cardJsonMd5)
 
 def loadCardImage(cardImageFile):
   nameReSearch = re.search("^(\d+)-(.*)", cardImageFile.stem)
@@ -269,6 +298,7 @@ def loadCardImage(cardImageFile):
     raise Exception("Failed to parse card file name: '{0}'".format(cardImageFile.stem))
 
 def createPDFPageImages():
+  global pageCount
   currentPageIndex = 0
   currentPageImage = Image.new('RGB', pageSize, 'white')
   currentPageCardIndex = (0,0)
@@ -286,11 +316,13 @@ def createPDFPageImages():
         if currentPageCardIndex[1] == cardsGridDimension[1]:
           currentPageCardIndex = (0, 0)
           currentPageImage.save(f"{exportPageImagesPath}\\page-{currentPageIndex}.png")
+          pageCount = pageCount + 1
           currentPageIndex = currentPageIndex + 1
           currentPageImage = Image.new('RGB', pageSize, 'white')
           print("\tStarting new page {0}".format(currentPageIndex))
   if currentPageCardIndex[0] != 0 or currentPageCardIndex[1] != 0:
     currentPageImage.save(f"{exportPageImagesPath}\\page-{currentPageIndex}.png")
+    pageCount = pageCount + 1
 
 def createPdfFromImagesInFolder():
   pdf = FPDF(unit = "mm", format = [physicalPageSize[0], physicalPageSize[1]])
@@ -325,13 +357,7 @@ def main():
 
   print(f"Creating cards with dimensions {cardSize[0]}x{cardSize[1]} px")
   print("Processing cards...")
-  for (root, _, files) in os.walk(cardsPath):
-    for cardJsonFileName in files:
-      cardJsonPath = Path(root) / cardJsonFileName
-      cardJsonMd5 = hashlib.md5(open(cardJsonPath, 'rb').read()).hexdigest()
-      with open(cardJsonPath, 'r') as cardJsonFile:
-        cardJson = json.load(cardJsonFile)
-        createCardImage(cardJson, cardJsonPath, cardJsonMd5)
+  createCardImages()
 
   print("Page size in pixels {0}".format(pageSize))
   print("Page will fit {0}x{1} cards".format(cardsGridDimension[0], cardsGridDimension[1]))
@@ -344,6 +370,8 @@ def main():
 
   print("Checking art...")
   checkAssetsUsed()
+
+  print(f"Total cards: {cardCount}. Total pages: {pageCount}")
 
   return 0
 

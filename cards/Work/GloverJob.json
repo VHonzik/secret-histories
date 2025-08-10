@@ -8,6 +8,6 @@
   ],
   "art": "GloverA.png",
   "title": "Glover&Glover",
-  "text": ["Work({work}): Tap {ReasonA} and add {Time} to this.","Draw{x}: {Heart} tap another {ReasonA} 2x{funds} | {funds}", "Decays to Difficulty at Work."],
+  "text": ["Work({work}): Tap {ReasonA} and add {Time} to this.","Draw{Hour}: {Heart} tap another {ReasonA} 2x{funds} | {funds}", "Decays to Difficulty at Work."],
   "amount": 3
 }

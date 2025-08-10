@@ -9,5 +9,5 @@
   "title": "Season of Sickness",
   "text": ["You must convert one {HealthA} to {affliction}.", "If you cannot, you succumb to the illness!"],
   "amount": 1,
-  "deck": "Season"
+  "deck": "season"
 }

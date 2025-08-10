@@ -7,6 +7,6 @@
   ],
   "art": "injury.png",
   "title": "Unskilled Labor",
-  "text": ["Work({work}): Tap {HealthA}, gain {funds} and draw{x}:", "{Moth}{HealthA}to{affliction} | {HealthB}"],
+  "text": ["Work({work}): Tap {HealthA}, gain {funds} and draw{Hour}:", "{Moth}{HealthA}to{affliction} | {HealthB}"],
   "amount": 3
 }

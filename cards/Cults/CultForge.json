@@ -9,6 +9,7 @@
   ],
   "art": "cultforge_1.png",
   "title": "Unflinching Order",
-  "text": ["Talk({talk}): Tap this and draw{x}:", "{Knock} gain one card from {hunter} deck | {mystique}.", "Must pay {funds} if your{society} is not on this."],
-  "amount": 1
+  "text": ["Talk({talk}): Tap this and draw{Hour}:", "{Knock} gain one card from {Robbery} deck | {mystique}.", "Must pay {funds} if your{society} is not on this."],
+  "amount": 1,
+  "deck": "Cult"
 }

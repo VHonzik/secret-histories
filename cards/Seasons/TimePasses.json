@@ -9,5 +9,5 @@
   "title": "Time passes",
   "text": ["You must pay one {funds}. If you cannot,","you must convert one {HealthA} to {affliction}.", "If you still cannot, you starve and die!"],
   "amount": 1,
-  "deck": "Season"
+  "deck": "season"
 }

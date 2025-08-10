@@ -8,6 +8,6 @@
   ],
   "art": "GloverB.png",
   "title": "Senior at Glover&Glover",
-  "text": ["Work({work}): Tap {ReasonA} and add {Time} to this.","Draw{x}: {Heart} 3x{funds} | 2x{funds}", "Decays to Difficulty at Work."],
+  "text": ["Work({work}): Tap {ReasonA} and add {Time} to this.","Draw{Hour}: {Heart} 3x{funds} | 2x{funds}", "Decays to Difficulty at Work."],
   "amount": 3
 }

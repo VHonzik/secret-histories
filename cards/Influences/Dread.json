@@ -9,6 +9,6 @@
   ],
   "art": "dread.png",
   "title": "Dread",
-  "text": ["Dream({dream}): Spend {funds} to discard this.", "Draw{x}: {Winter}{HealthA}to{affliction}"],
+  "text": ["Dream({dream}): Spend {funds} to discard this.", "Draw{Hour}: {Winter}{HealthA}to{affliction}"],
   "amount": 10
 }
