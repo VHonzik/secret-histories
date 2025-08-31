@@ -8,7 +8,7 @@
   ],
   "art": "commissionarticleknock.png",
   "title": "Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal any {Lore}","of strength 2+. Gain {compensation}, {HealthB} and {mystique}.","Discard the commission and the patron."],
+  "text": ["Work({work}): If you have any {Lore} of", "strength 2+, use {ReasonA} and gain {compensation}, {HealthB} and","{mystique}. Discard the commission and the patron."],
   "amount": 1,
   "deck": "Commission"
 }

@@ -9,7 +9,7 @@
   ],
   "art": "commissionarticlemothc.png",
   "title": "Substantial Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal {Moth} or {Lantern}","{Lore} of strength 6+. Gain {compensationc}, {ReasonC} and {notoriety}.","Discard the commission and the patron."],
+  "text": ["Work({work}): If you have {Moth} or {Lantern}{Lore} of", "strength 6+. Use {ReasonA} and gain {compensationc}, {ReasonC} and"," {notoriety}. Discard the commission and the patron."],
   "amount": 1,
   "deck": "Commission"
 }

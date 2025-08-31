@@ -1,6 +1,7 @@
 {
   "area": "Tiny",
   "aspects": [
+    "Hour",
     "heart",
     "moth"
   ],
@@ -9,6 +10,5 @@
   "art": "velvet.png",
   "title": "",
   "text": [],
-  "amount": 1,
-  "deck": "Hour"
+  "amount": 1
 }

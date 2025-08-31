@@ -1,6 +1,7 @@
 {
   "area": "Tiny",
   "aspects": [
+    "Hour",
     "lantern",
     "heart",
     "knock"
@@ -10,6 +11,5 @@
   "art": "thunderskin.png",
   "title": "",
   "text": [],
-  "amount": 1,
-  "deck": "Hour"
+  "amount": 1
 }

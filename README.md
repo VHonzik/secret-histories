@@ -5,9 +5,9 @@ Unofficial print&play card boardgame for 2-3 players based on the [Cultist Simul
 ## Game description
 
 Secret Histories is card-heavy boardgame designed for 3 players. The main mechanics, borrowing from BoardGameGeek terminology, are:
-- Race: Players race to achieve immortality through an occult ritual. Whoever performs an ascension ritual first wins the game. Players need to gather occult lore, influence and ingredient of the right principle and strength.
+- Race: Players race to achieve immortality through an occult ritual. Whoever performs an ascension ritual first wins the game. Players need to gather occult lore, influences and ingredients of the right principle and strength.
 - Action Points/Action drafting: There are 4 types of actions a player can do: Work, Study, Dream and Talk. But they can only do 3 unique ones each round. Additionally, some actions are picked from a shared limited pool.
-- Hand Management/Push Your Luck/Player Elimination: Players fall under effects of powerful yet temporary "influences." And not all of them are good. As seasons change, they must careful manage their mental state or risk succumbing to ill effects entirely. You can always play it safe but takes time that you don't always have. And if that wasn't enough, the authorities don't take kindly to the occult activities either.
+- Hand Management/Push Your Luck/Player Elimination: Players fall under effects of powerful yet temporary "influences." And not all of them are good. As seasons change, they must careful manage their mental state or risk loosing their hard earned resources. You can always play it safe but takes time that you don't always have. And if that wasn't enough, the authorities don't take kindly to the occult activities either.
 - Hidden Information: Many key pieces for final ritual are obtained secretly. Victory won't come out of the blue but it is not always clear how close an individual player is.
 - Temporary Cards: Influences are fickle in their nature.
 - Auction: Some end-game pieces for the ascension are auctioned among the player. Prepare to pay a hefty price for the final piece of the puzzle.
@@ -25,7 +25,7 @@ This will take around 2 minutes and generate `export/SecretHistories.pdf`. After
 
 ## Digital version
 
-I have made a work in progress [Tabletop Simulator mod of this game](https://steamcommunity.com/sharedfiles/filedetails/?id=3479818565). It is currently little behind the main, sitting at version 0.3.
+I have made a work in progress [Tabletop Simulator mod of this game](https://steamcommunity.com/sharedfiles/filedetails/?id=3479818565). It is currently very behind the main, sitting at version 0.3.
 
 ## Licensing
 

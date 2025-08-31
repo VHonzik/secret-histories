@@ -9,7 +9,7 @@
   ],
   "art": "cultwinter_1.png",
   "title": "Children of Silence",
-  "text": ["Talk({talk}): Tap this and draw{Hour}:", "{Knock} gain one card from {Robbery} deck | {notoriety}.", "Must pay {funds} if your{society} is not on this."],
+  "text": ["Talk({talk}): Tap this and gain one card", "from {Robbery} deck. Must pay {Hour}: {Knock}{funds} or", "2 {funds} if your{society} is not on this."],
   "amount": 1,
   "deck": "Cult"
 }

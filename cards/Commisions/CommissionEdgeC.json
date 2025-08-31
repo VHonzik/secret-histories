@@ -9,7 +9,7 @@
   ],
   "art": "commissionarticleedgec.png",
   "title": "Substantial Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal {Edge} or {Forge}","{Lore} of strength 6+. Gain {compensationc}, {PassionC} and {mystique}.","Discard the commission and the patron."],
+  "text": ["Work({work}): If you have {Edge} or {Forge}{Lore} of", "strength 6+, use {ReasonA} and gain {compensationc}, {PassionC} and","{mystique}. Discard the commission and the patron."],
   "amount": 1,
   "deck": "Commission"
 }

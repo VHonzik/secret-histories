@@ -12,6 +12,7 @@ import hashlib
 
 rootPath=Path.cwd()
 cardsPath = rootPath / "cards"
+boardsPath = rootPath / "boards"
 assetsPath = rootPath / "assets"
 exportPath = rootPath / "export"
 exportCardsPath = exportPath / "cards"
@@ -78,7 +79,21 @@ cardsGridDimension = (math.floor(pageSize[0] / cardSize[0]), math.floor(pageSize
 inlineIconSize = (mmToPixel(4),mmToPixel(4))
 
 # Tracking
-usedArt = set()
+usedArt = {
+  # Patch flag art
+  "borderpatch.png",
+  # Tokens
+  "funds1.png",
+  "funds5.png",
+  "funds10.png",
+  "societyb.png",
+  "societyg.png",
+  "societyr.png",
+  # Board only art
+  "passiona.png",
+  # Digital assets
+  "thumbnail.png",
+}
 cardCount = 0
 pageCount = 0
 
@@ -287,24 +302,36 @@ def createCardImages():
         cardJson = json.load(cardJsonFile)
         createCardImage(cardJson, cardJsonPath, cardJsonMd5)
 
-def loadCardImage(cardImageFile):
+def loadCountedImage(cardImageFile):
   nameReSearch = re.search("^(\d+)-(.*)", cardImageFile.stem)
   if (nameReSearch):
     amount = int(nameReSearch.group(1))
     cardName = nameReSearch.group(2)
-    print("\tFound card {0} with amount {1}".format(cardName, amount))
+    print("\tFound image {0} with amount {1}".format(cardName, amount))
     return (Image.open(cardImageFile), amount)
   else:
-    raise Exception("Failed to parse card file name: '{0}'".format(cardImageFile.stem))
+    raise Exception("Failed to parse image file name: '{0}'".format(cardImageFile.stem))
+
+def createBoardPageImages():
+  global pageCount
+  for boardImageFile in boardsPath.glob("**/*.png"):
+    (boardImage, boardAmount) = loadCountedImage(boardImageFile)
+    # Flip to portrait
+    boardImage = boardImage.transpose(method=Image.Transpose.ROTATE_90)
+    for _ in range(boardAmount):
+      print("\tStarting new page {0}".format(pageCount))
+      pageImage = Image.new('RGB', pageSize, 'white')
+      pageImage.paste(boardImage)
+      pageImage.save(f"{exportPageImagesPath}\\page-{pageCount}.png")
+      pageCount += 1
 
 def createPDFPageImages():
   global pageCount
-  currentPageIndex = 0
   currentPageImage = Image.new('RGB', pageSize, 'white')
   currentPageCardIndex = (0,0)
 
   for cardImageFile in exportCardsPath.glob("**/*.png"):
-    (cardImage, cardAmount) = loadCardImage(cardImageFile)
+    (cardImage, cardAmount) = loadCountedImage(cardImageFile)
     currentCardAmount = cardAmount
     while (currentCardAmount > 0):
       region = (pageCardsOffset[0] + currentPageCardIndex[0] * (cardSize[0] + pageCardsSpacing), pageCardsOffset[1] + currentPageCardIndex[1] * (cardSize[1] + pageCardsSpacing))
@@ -315,14 +342,15 @@ def createPDFPageImages():
         currentPageCardIndex = (0, currentPageCardIndex[1]+1)
         if currentPageCardIndex[1] == cardsGridDimension[1]:
           currentPageCardIndex = (0, 0)
-          currentPageImage.save(f"{exportPageImagesPath}\\page-{currentPageIndex}.png")
+          currentPageImage.save(f"{exportPageImagesPath}\\page-{pageCount}.png")
           pageCount = pageCount + 1
-          currentPageIndex = currentPageIndex + 1
           currentPageImage = Image.new('RGB', pageSize, 'white')
-          print("\tStarting new page {0}".format(currentPageIndex))
+          print("\tStarting new page {0}".format(pageCount))
   if currentPageCardIndex[0] != 0 or currentPageCardIndex[1] != 0:
-    currentPageImage.save(f"{exportPageImagesPath}\\page-{currentPageIndex}.png")
+    currentPageImage.save(f"{exportPageImagesPath}\\page-{pageCount}.png")
     pageCount = pageCount + 1
+
+  createBoardPageImages()
 
 def createPdfFromImagesInFolder():
   pdf = FPDF(unit = "mm", format = [physicalPageSize[0], physicalPageSize[1]])

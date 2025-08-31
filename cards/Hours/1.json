@@ -1,6 +1,7 @@
 {
   "area": "Tiny",
   "aspects": [
+    "Hour",
     "lantern",
     "knock"
   ],
@@ -9,6 +10,5 @@
   "art": "doorintheeye.png",
   "title": "",
   "text": [],
-  "amount": 1,
-  "deck": "Hour"
+  "amount": 1
 }

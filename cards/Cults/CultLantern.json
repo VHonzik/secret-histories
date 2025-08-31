@@ -9,7 +9,7 @@
   ],
   "art": "cultlantern_1.png",
   "title": "Mirror of Glory",
-  "text": ["Talk({talk}): Tap this and draw{Hour}:", "{Knock} move {Time} from one temporary card","to another | {mystique}.", "Must pay {funds} if your{society} is not on this."],
+  "text": ["Talk({talk}): Tap this and move {Time} from one","temporary card to another.","Must pay {Hour}: {Knock}{funds} or 2 {funds} if","your{society} is not on this."],
   "amount": 1,
   "deck": "Cult"
 }

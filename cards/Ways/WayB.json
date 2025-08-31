@@ -1,11 +1,11 @@
 {
-  "area": "Normal",
+  "area": "Special",
   "aspects": [
   ],
   "verbs": [
   ],
   "art": "waywhite.png",
   "title": "Way: The White Door",
-  "text": ["When Dreaming or Intertwining ({dream}),", "you can place one {time} token on any {Influence}."],
+  "text": ["When dreaming ({dream}) you can", "place one {time} token on any {Influence}."],
   "amount": 3
 }

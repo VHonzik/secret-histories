@@ -8,7 +8,7 @@
   ],
   "art": "commissionarticlegrailc.png",
   "title": "Substantial Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal {Grail}{Lore}","of strength 6+. Gain {compensationc}, {HealthC} and {notoriety}.","Discard the commission and the patron."],
+  "text": ["Work({work}): If you have {Grail}{Lore} of", "strength 6+. Use {ReasonA} and gain {compensationc}, {HealthC} and","{notoriety}. Discard the commission and the patron."],
   "amount": 1,
   "deck": "Commission"
 }

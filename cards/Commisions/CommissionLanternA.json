@@ -8,7 +8,7 @@
   ],
   "art": "commissionarticlelantern.png",
   "title": "Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal {Lantern}{Lore}","of strength 2+. Gain {compensation} and {ReasonB}.","Discard the commission and the patron."],
+  "text": ["Work({work}): If you have {Lantern}{Lore} of", "strength 2+, use {ReasonA} and gain {compensation} and {ReasonB}.","Discard the commission and the patron."],
   "amount": 1,
   "deck": "Commission"
 }

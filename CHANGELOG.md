@@ -1,5 +1,46 @@
 # Game changelog
 
+Significant amount of cards is replaced by player boards. Buff Masterpieces and nerf Forge Bronze Spintria. Painting is Hour based again.
+
+## 0.6
+
+### Balance
+
+- Lore is now public knowledge and therefore must be simply owned rather than shown for other actions
+- Cults random negative outcome is: reputation -> increased cost to 2 (if player does not have society token on it)
+- Bronze Spintria Forge aspect strength 6 -> 4
+- Masterpieces strength 6 -> 8
+- Reason skill up first tier costs: 2 Wisdom -> 1 Wisdom
+- Reason skill up second tier costs: 1 Erudition -> 2 Wisdom
+- Senior clerical job extra funds chance: Heart (0.5) -> Lantern (0.4)
+- Painting skill is now Hour chance based again with following chances per tier:
+    - Knock (0.7) Funds, Moth (0.3) Glimmering
+    - Edge (0.2) Funds, Heart (0.5) Glimmering, Moth (0.3) Mystique + always Funds
+    - Knock (0.7) Funds, Heart (0.5) Mystique, Edge (0.2) Funds and Glimmering + always Funds and Glimmering
+
+### UX
+
+- Add 3 player boards for Study, Work and Dream+Talk actions
+- Fix Hours deck symbol to next to the other aspects
+- In addition to, or replacing, tokens, cubes are now used for time tracking, abilities, action tracking, lores
+- Remove action tracker and study guide cards
+- Replace Lore cards with Study player boards slots and tokens
+- Replace Glover&Glover cards, with the exception of Your "Mr Alden", with Work player board
+- Replace Health, Passion and Reason cards with slots on player boards
+- Replace work skills with Work player boards slots and tokens with exception of passive skills which are separate cards now: Unyielding Strength, Scholarship, Sage Scholarship
+- Change skill areas to special
+- Replace work skills training cards with Study player board actions
+- Replace Riddle cards with Dream+Talk player board actions
+- Replace Way: Wood card with passive built-in to the Dream player board action
+- Change Way: The White Door text to use generic study verb
+- Change Passion color to green and tinted Glimmering more towards blue
+- Change temptation cards regarding lore revealing to ownership
+- Change commission cards regarding lore revealing to ownership
+- Change Your "Mr Alden" card regarding lore revealing to ownership
+- Change commission cards ability tapping to using
+- Update Rules.docs regarding above changes and couple of typo fixes
+
+
 ## 0.5
 
 ### Balance
@@ -35,11 +76,11 @@ Ascension now allows 2 ingredients and influences. Major influences rework. Pain
 - Orchid Transfigurations (Grail 4 book) gives Vitality in addition to Dread
 - Kitling Ripe (Moth 4 book) reward Glimmering -> Vitality
 - Add new Medical records book rewarding Fortitude. 2x to bookstore and 1x to auction house
-- Forge Substantial Commission now longer gives Mystique
+- Forge Substantial Commission no longer gives Mystique
 - Winter Commission and Significant Commission reward Wisdom -> Vitality
 - Winter Substantial Commission reward Erudition -> Fortitude
 - Remove Contentment card completely in favor of Dread card having the same mechanic
-- Remove all influences apart from ability based ones
+- Remove all influences apart from the ability based ones
 - Vitality, Wisdom and Glimmering are now Grail/Lantern/Forge influences with strength 1
 - Fortitude, Erudition and Fervor are now Grail/Lantern/Forge influences with strength 3
 - Fortitude, Erudition and Fervor can now be intertwined (dream action) with Vitality/Wisdom/Glimmering once to have strength 4
@@ -51,7 +92,7 @@ Ascension now allows 2 ingredients and influences. Major influences rework. Pain
 - Wildering Mirror (Lantern ingredient) strength 8 -> 6
 - Masterpieces strength 8 -> 6
 - Unyielding Strength 50% chance Funds -> Funds + Vitality
-- Creativity, Vivid Imagination, Fevered Imagination now give sequential rewards instead of Hours based ones. The average reward rates are roughly the same across the entire sequence.
+- Creativity, Vivid Imagination, Fevered Imagination now give sequential rewards instead of Hours based ones. The average reward rates remain roughly the same when the entire sequence is run.
 - Creativity, Vivid Imagination, Fevered Imagination no longer reward Contentment
 - Creative Mastery no longer requires tapping Passion
 - Way: The Wood is now passive effect that has 30% chance to reward extra Vitality/Wisdom/Glimmering when dreaming with Health/Reason/Passion

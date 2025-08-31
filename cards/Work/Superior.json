@@ -7,6 +7,6 @@
   ],
   "art": "Superior.png",
   "title": "Your \"Mr Alden\"",
-  "text": ["Talk({talk}): Reveal {lore}s until you reach total", "strength of 6+. Discard this and get a", "promotion at Glover&Glover."],
+  "text": ["Talk({talk}): If all your {lore} combine to", "total strength of 6 or more. Discard this and", "unlock better clerical work."],
   "amount": 3
 }

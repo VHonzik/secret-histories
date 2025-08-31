@@ -9,7 +9,7 @@
   ],
   "art": "cultgrail_1.png",
   "title": "Order of the Bloody Cup",
-  "text": ["Talk({talk}): Tap this and draw{Hour}:", "{Knock} transform between {HealthB}, {PassionB} or {ReasonB}","keeping the {time} tokens.", "Must pay {funds} if your{society} is not on this."],
+  "text": ["Talk({talk}): Tap this and transform between"," {HealthB}, {PassionB} or {ReasonB} keeping the {time} tokens.", "Must pay {Hour}: {Knock}{funds} or 2 {funds} if","your{society} is not on this."],
   "amount": 1,
   "deck": "Cult"
 }

@@ -7,6 +7,6 @@
   ],
   "art": "ascensionenlightenmenta.png",
   "title": "Temptation: Enlightenment",
-  "text": ["Dream({dream}): Show 4+{Lantern}{Lore} to dedicate", "yourself to pursuit of knowledge.", "Gain {ascensionenlightenmentb}. This cannot be undone." ],
+  "text": ["Dream({dream}): Show 4+{Lantern}{Lore},", "dedicate yourself to pursuit of knowledge.", "Gain {ascensionenlightenmentb}. This cannot be undone." ],
   "amount": 1
 }

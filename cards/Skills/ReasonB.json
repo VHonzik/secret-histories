@@ -1,11 +1,11 @@
 {
-  "area": "Normal",
+  "area": "Special",
   "aspects": [
   ],
   "verbs": [
   ],
   "art": "ReasonSkillA.png",
   "title": "  Scholarship  ",
-  "text": ["When improving or subverting {Lore}, you can","also place your {society} on {Cult} with matching", "principle. If the {Cult} is not revealed yet,", "reveal it and place your {society} on it."],
+  "text": ["When you study ({study}) {text} or {Lore}, you can","also place your {society} on {Cult} with matching", "principle. If the {Cult} is not revealed yet,", "reveal it and place your {society} on it."],
   "amount": 3
 }

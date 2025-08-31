@@ -1,5 +1,5 @@
 {
-  "area": "Normal",
+  "area": "Special",
   "aspects": [
   ],
   "verbs": [
@@ -7,6 +7,6 @@
   ],
   "art": "painting.palest.png",
   "title": "Creative Mastery",
-  "text": ["Work({work}): Discard a {Pigment} to gain","masterpiece of matching principle,", "if not already taken. Also Gain 2{notoriety}."],
+  "text": ["Work({work}): Discard a {Pigment} to gain","masterpiece of matching principle,", "if not already taken. Also gain {notoriety}."],
   "amount": 3
 }

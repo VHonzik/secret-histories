@@ -7,6 +7,6 @@
   ],
   "art": "ascensionpowera.png",
   "title": "Temptation: Power",
-  "text": ["Dream({dream}): Show 4+{Forge}{Lore} to dedicate", "yourself to pursuit of power.", "Gain {ascensionpowerb}. This cannot be undone." ],
+  "text": ["Dream({dream}): If you have 4+{Forge}{Lore},", "dedicate yourself to pursuit of power.", "Gain {ascensionpowerb}. This cannot be undone." ],
   "amount": 1
 }

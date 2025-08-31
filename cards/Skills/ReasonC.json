@@ -1,11 +1,11 @@
 {
-  "area": "Normal",
+  "area": "Special",
   "aspects": [
   ],
   "verbs": [
   ],
   "art": "ReasonSkillC.png",
   "title": "Sage Scholarship",
-  "text": ["Improving or Subverting {Lore} of any","strength ignores all cost and you can use","matching {Cult} for free as part of the action."],
+  "text": ["Studying ({study}) {Lore} ignores all cost.","When studying {text} or {Lore} you can also","talk to matching {Cult} in the same action."],
   "amount": 3
 }

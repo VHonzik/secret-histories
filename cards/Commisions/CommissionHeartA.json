@@ -9,7 +9,7 @@
   ],
   "art": "commissionarticleheart.png",
   "title": "Commission",
-  "text": ["Work({work}): Tap {ReasonA} and reveal {Heart} or {Grail}","{Lore} of strength 2+. Gain {compensation} and {HealthB}.","Discard the commission and the patron."],
+  "text": ["Work({work}): If you have {Heart} or {Grail}{Lore} of", "strength 2+. Use {ReasonA} and gain {compensation} and {HealthB}.","Discard the commission and the patron."],
   "amount": 1,
   "deck": "Commission"
 }

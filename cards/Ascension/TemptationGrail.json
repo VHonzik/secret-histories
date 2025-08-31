@@ -7,6 +7,6 @@
   ],
   "art": "ascensionsensationa.png",
   "title": "Temptation: Sensation",
-  "text": ["Dream({dream}): Show 4+{Grail}{Lore} to dedicate", "yourself to pursuit of sensation.", "Gain {ascensionsensationbf}. This cannot be undone." ],
+  "text": ["Dream({dream}): If you have 4+{Grail}{Lore},", "dedicate yourself to pursuit of sensation.", "Gain {ascensionsensationbf}. This cannot be undone." ],
   "amount": 1
 }

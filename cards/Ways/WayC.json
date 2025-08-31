@@ -1,11 +1,11 @@
 {
-  "area": "Normal",
+  "area": "Special",
   "aspects": [
   ],
   "verbs": [
   ],
   "art": "waystag_after.png",
   "title": "Way: The Stag Door",
-  "text": ["You can now Intertwine ({dream}) one additional", "{PassionB}/{ReasonB}/{HealthB}. They also transfer their","{time} tokens to the {PassionC}/{ReasonC}/{HealthC}"],
+  "text": ["You can now Intertwine ({dream}) one additional", "{PassionB}/{ReasonB}/{HealthB}. They also transfer their","{time} tokens to the {PassionC}/{ReasonC}/{HealthC}."],
   "amount": 3
 }

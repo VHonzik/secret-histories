@@ -1,6 +1,7 @@
 {
   "area": "Tiny",
   "aspects": [
+    "Hour",
     "moth"
   ],
   "verbs": [
@@ -8,6 +9,5 @@
   "art": "mothhour.png",
   "title": "",
   "text": [],
-  "amount": 1,
-  "deck": "Hour"
+  "amount": 1
 }

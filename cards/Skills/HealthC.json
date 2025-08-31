@@ -1,12 +1,11 @@
 {
-  "area": "Normal",
+  "area": "Special",
   "aspects": [
   ],
   "verbs": [
-    "work"
   ],
-  "art": "HealthSkillC.png",
+  "art": "HealthSkillA.png",
   "title": "Unyielding Strength",
-  "text": ["Work({work}): Tap {HealthA}, gain {funds} and {HealthB}", "Draw{Hour}: {Heart}{funds}{HealthB}", "You are now immune to Season of Sickness"],
+  "text": ["You are now immune to Season of Sickness"],
   "amount": 3
 }

@@ -1,6 +1,7 @@
 {
   "area": "Tiny",
   "aspects": [
+    "Hour",
     "heart",
     "forge",
     "edge",
@@ -11,6 +12,5 @@
   "art": "lionsmith.png",
   "title": "",
   "text": [],
-  "amount": 1,
-  "deck": "Hour"
+  "amount": 1
 }

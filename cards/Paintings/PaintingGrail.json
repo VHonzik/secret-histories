@@ -2,7 +2,7 @@
   "area": "Special",
   "aspects": [
     "Ingredient",
-    ["Grail", 6],
+    ["Grail", 8],
     ["Auctionable", 16]
   ],
   "verbs": [
